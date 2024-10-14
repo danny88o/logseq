@@ -1,0 +1,6 @@
+- ![Code to Give spec.pdf](../assets/Code_to_Give_spec_1696526020378_0.pdf)
+- Siblings!!!!
+- Hearing impared
+- Visually impaired
+- To engage with and without screen
+- Calming??

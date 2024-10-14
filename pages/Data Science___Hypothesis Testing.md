@@ -1,0 +1,23 @@
+- Slides
+	- ![FDS-S2-01-1-1-principle-hypothesis-testing.pdf](../assets/FDS-S2-01-1-1-principle-hypothesis-testing_1673863766651_0.pdf)
+	- ![FDS-S2-01-1-2-p-values.pdf](../assets/FDS-S2-01-1-2-p-values_1673863778210_0.pdf)
+	- ![FDS-S2-01-1-3-goodness-of-fit.pdf](../assets/FDS-S2-01-1-3-goodness-of-fit_1673863792448_0.pdf)
+	- ![FDS-S2-01-1-4-issues-hypothesis-testing.pdf](../assets/FDS-S2-01-1-4-issues-hypothesis-testing_1673863801903_0.pdf)
+- Lecture Notes
+	- ![FDS-S2-01-1-hypothesis-testing-notes.pdf](../assets/FDS-S2-01-1-hypothesis-testing-notes_1673863884000_0.pdf)
+-
+- ## Hypothesis Testing
+	- ((63c523c7-6b09-4ce7-96db-b70675cc2a29))
+	- Ho and not(Ho)
+	- Rejecting Ho tells us little about the alternative, not-rejecting Ho does not mean Ho is true, another distribution might be better/fit more accurately
+	-
+- ## p-values
+	- ((63c5271b-10be-48b2-9f87-379c6c0f2d8f))
+- ## Chi-Squared
+	- When there is multiple categories this is used
+	- ((63c7c9b4-713d-4f4e-9602-90cca45eacb9))
+	- ((63c7c9d0-9a20-42d9-b703-965401c22f31))
+	- ((63c7c9e0-8559-4920-8ec6-4c7a3458215f))
+	- 357 as a chi value is statistically impossible, p lim o
+	- If it had been close to 0, it could mean a quota was trying to be reached
+	-

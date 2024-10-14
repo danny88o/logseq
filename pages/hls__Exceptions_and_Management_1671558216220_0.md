@@ -1,0 +1,40 @@
+file:: [Exceptions_and_Management_1671558216220_0.pdf](../assets/Exceptions_and_Management_1671558216220_0.pdf)
+file-path:: ../assets/Exceptions_and_Management_1671558216220_0.pdf
+
+- External 
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 63a2339b-2ec7-4d02-90f6-6258e129a386
+- Internal 
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 63a233bf-d0c1-43ab-8d10-34e7ec0126ed
+- Operating System
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63a23439-c182-4167-b1f6-824ff2233319
+- Kernel
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63a2348c-208a-4baf-b0db-993d0dca478d
+- eret
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 63a236b3-76de-4af0-a7b3-bf5d241ce438
+- Kernel vs. User Mode
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 63a23a77-aba0-4ff6-8f5c-4fe426461719
+- [:span]
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: yellow
+  id:: 63a23cdb-fc89-4f18-a98b-4bfeaf1081cb
+  hl-type:: area
+  hl-stamp:: 1671576793918

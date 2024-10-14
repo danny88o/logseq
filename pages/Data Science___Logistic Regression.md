@@ -1,0 +1,16 @@
+- Slides
+	- ![FDS-S2-01-2-1-principle-logistic-regression.pdf](../assets/FDS-S2-01-2-1-principle-logistic-regression_1674038033615_0.pdf)
+	- ![FDS-S2-01-2-2-interpretation-log-reg-coeffs.pdf](../assets/FDS-S2-01-2-2-interpretation-log-reg-coeffs_1674038042782_0.pdf)
+	- ![FDS-S2-01-2-3-multiple-logistic-regression-confidence-intervals.pdf](../assets/FDS-S2-01-2-3-multiple-logistic-regression-confidence-intervals_1674038051895_0.pdf)
+	- ![FDS-S2-01-2-4-logistic-regression-classifier.pdf](../assets/FDS-S2-01-2-4-logistic-regression-classifier_1674038063497_0.pdf)
+	- ![FDS-S2-01-2-5-max-likelihood-est-log-reg-coeffs.pdf](../assets/FDS-S2-01-2-5-max-likelihood-est-log-reg-coeffs_1674038073365_0.pdf)
+- Lecture Notes
+	- ![FDS-S2-01-2-logistic-regression.pdf](../assets/FDS-S2-01-2-logistic-regression_1674038082252_0.pdf)
+- # Basics
+	- Predicts the <ins>probability</ins> of something
+	- Odds(Success) = P(Success)/P(Failure)
+	- Odds ratio OR(x) = Odds(Success|x=True)/Odds(Success|x=False)
+-
+- # Multiple Logistic Regression
+	- ((63ce6289-c7cf-48e4-90c8-68035fc2c471))
+	-

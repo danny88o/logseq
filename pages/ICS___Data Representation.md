@@ -1,0 +1,50 @@
+- Reading
+	- 1, 2.4, 3.1, 3.2, 3.5
+	- 2.4 ((639a18f8-0543-4826-a61f-75bbb7c580a6))
+		- Binary Basics
+			- ((639a1af9-81ba-4397-8c51-7c6a08b57760))((639a1b1b-92f7-4014-9f50-faf9eb81e8a4)) LSB and MSB
+			-
+			- Overflow ((63a04115-384e-4c4f-a464-2c57063515d8)) ((63a0416b-1350-42fe-98eb-e74c13cc0a31))
+		- Signed Number Representation
+			- ((63a0435d-b7e7-4fdc-b200-a8203da747fe)) - One bit is the sign
+				- Problems:
+					- Is said bit the most or least significant?
+					- Adders take more time
+					- Positive and negative 0
+				- It was quickly abandoned
+			- ((63a04737-5161-4f9a-9080-dec85734e6ca))- Leading 0s negative, 1 positive
+				- ((63a0ebae-7984-4f1b-92ee-9070904a407f)) 2^N is equal to 0 (overflow)
+				- +N from 0 to (2^31)-1 are the same as unsigned
+				- - N from -(2^31) to 0 which goes from 1000...0000 to 1111...1111
+				- ((63a04792-0e71-4f15-a47f-2c51fcf6ba68))
+				- ((63a04913-21d5-4e54-9109-0c1e1701cff8))
+					- Invert the bits and add one, both for +to- and vice versa
+				- ((63a049b6-a67e-49e4-a390-e2891877efe9))
+					- Convert 16-bit binary versions of 2 and -2 to 32-bit binary numbers.
+				- ((63a0ecac-abcf-4869-965e-1f0072d09b4d))
+					- Left Shift
+						- 0s fill empty space
+						- Equivalent to multiplying by 2^n number of shifts
+						- Right Shift Arithmetic - Fill with MSB (numerical)
+					- Right Shift Arithmetic
+						- For Numerical data
+						- Fill with MSB
+						- Equivalent to dividing by 2^n and rounding down
+					- Right Shift Logical - Fill with 0s (for non-numerical)
+					-
+	- 3.2 ((63a04aac-4039-4385-ab51-2fffeb87a0b5)) (Signed int)
+	  collapsed:: true
+		- Addition ((63a05076-7291-41ba-9d85-87ed8b51c72c))
+		- Subtraction ((63a05048-1e15-4e9c-8ad1-68203fe763ee))
+		- Overflow
+			- Overflow can only occur in addition if signs are the same, In subtraction when they are different.
+			- If these are true, Overflow has occurred ((63a05865-4bbd-4f2a-98d8-fe4eb59a135a))
+	- 3.5 ((63a0657b-54e6-4e20-8fe2-0d02f2257049))
+	  collapsed:: true
+		- ((63a0e3b6-c025-4678-afae-5b0e3c689351))
+		- ((63a0e409-18a7-48e0-ba99-599b1eb65b8b))
+		- ((63a0e427-0c8f-4251-addc-0339acde2c64))
+		-
+		- ((63a0e435-5520-4487-ad5a-b5365857ee93))
+		-
+	-

@@ -1,0 +1,30 @@
+- ![Inf2d-tutorial_6.pdf](../assets/Inf2d-tutorial_6_1678288417901_0.pdf)
+- ## Q1
+	- Atemporal:
+		- kettle(x)
+		- cup(x)
+		- bottle(x)
+		- water(x)
+		- teabag(x)
+		-
+	- temporal:
+		- hot(x)
+		- empty(x)
+		- in(x,y)
+- ## Q2
+	- $teabag(b)\land water(w)\land bottle(b) \land kettle(k)\land cup(c)\land in(w,b)\land empty(k)\land empty(c)$
+- ## Q3
+	-
+- ## Q4
+	- $Action(Pour(w,x,y))$
+		- precondition: $empty(y)\land water(w)\land in(w,x)$
+		- effect: $in(w,y)\land empty(x)$
+	- $Action(AddTeaBag(t,x))$
+		- precondition: $teabag(t) \land cup(x) \land \neg in(t,x)$
+		- effect: $in(t,x)$
+	- $Action(BoilWaterInKettle(w,k))$
+		- precondition: $water(w) \land kettle(k) \land \neg hot(w) \land in(w,k)$
+		- effect: $hot(w)$
+- ## Q5
+- $$Start \rightarrow Pour(w,bk) \rightarrow BoilWaterInKettle(w,k) \rightarrow Pour(w,k,c)  \rightarrow Finish$$
+- $$Start \rightarrow AddTeaBag(t,c) \rightarrow Finish$$

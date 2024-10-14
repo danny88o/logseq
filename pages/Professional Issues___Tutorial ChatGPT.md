@@ -1,0 +1,46 @@
+- Readings:
+	- https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans
+	- https://blog.apaonline.org/2023/07/10/chatgpt-reveals-what-we-value-and-what-we-do-not/
+	- https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/
+- B) ChatGPT has access to vast data from the internet in order to be able to process information about an enormous range of subjects, but it also *required extensive data labelling* work to try and identify harmful content. What problems, and for whom, can data usage on this scale cause?
+-
+- ## Data labelling and collection problems
+	- Who decides what harmful actually is?
+	- Bias from general info
+	- ### Labelers
+		- Itroduce bias of labelers
+		- Exposure to harmful content
+		- Exploitation of underpaid workers
+		- Always stuff missed
+- ## How this affects different groups
+	- ### General Population
+		- Loose control over data once its been used to train
+		- No doable way to make sure that data scraping is done ethically with informed consent
+		- Model could have data that is highly identifiable, that could be extracted
+		- No credit for anyone's work
+		- Environmental costs of training and model
+	- ### Average User:
+		- Context of information is completely lost
+		- Will be influenced by inaccurate/bias information
+		- Conversations leaked could cause privacy issues
+	- ### Programmers:
+		- Harder to understand code if its not written by yourself
+		- Will probably not be in one cohesive style
+		- Might steal something completely accidently
+		- Incorrect/Depracated/Soon to be deprecated code is used
+	- ### Creative industries:
+		- Styles can get stolen
+		- Demoralizing effect having your unique style "taken" from you
+		- Actors/script writers loosing jobs as they are automated
+		- Hinders creativity as it can only re-use what is already created, no innovation will take place
+	- ### Company Training Model
+		- Are they responsible for any potential problems
+		- Without proper regulation, there is incentive to cut corners to maximize profit
+	- ### "Dul Dirty or Dangerous" jobs
+		-
+- ## Users:
+- People in "Dull Dirty or Dangerous" jobs:
+- Educators
+- Healthcare
+- Students
+- Ofiice workers

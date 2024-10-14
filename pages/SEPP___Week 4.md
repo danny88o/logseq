@@ -1,0 +1,53 @@
+- ![lecture9_part1_detailed_design_design_principles.pdf](../assets/lecture9_part1_detailed_design_design_principles_1675779733280_0.pdf)
+- ![lecture9_part2_class_diagrams.pdf](../assets/lecture9_part2_class_diagrams_1675780876549_0.pdf)
+- ![lecture10_sequence_diagrams.pdf](../assets/lecture10_sequence_diagrams_1675953079665_0.pdf)
+-
+- Quiz: ((63e25ec2-56d8-49e5-b22b-9f52c410605e))
+	- A is better because it is safer, user does not have the same access as straight inheritance
+- # Design Principles
+- ### Cohesion
+	- The measure of strength of the relationship between pieces of functionality
+	- You want high cohesion
+	- Benefits: Understandability, Maintainability and Realiability
+- ### Coupling
+	- The measure of the strength of the inter-connections between components
+	- Loose coupling is desired
+	- Benefits: Increased understandability, flexibility and _maintainability_
+- ### Abstraction
+	- Focuses on the info relevant to its purpose, no more, no less - doesnt _need_ info
+	- Abstraction is desirable
+	- Benefits: Implementation does not affect the outcome
+- ### Encapsulation
+	- Grouping of internal detail of abstraction and making inaccessible -  _can't_ access info
+	- Encapsulation is desirable
+- ### Separation of interface and implementation
+	- Combines Abstraction and Encapsulation
+- ### Modularisation
+	- Divide large system into smaller components
+-
+- # Class Diagrams
+- ## Identify Classes from a Description
+	- ((63e2642d-27d7-4831-a193-3d3c0785aa07))
+	- Eliminate: library, short term loan, member of the library, week, time
+	- Left with: item, book, journal, copy (of book), library member, member of staff.
+- ## Association between classes
+	- Object is an instance of a class
+	- Link is an instance of an association
+	- Types of association
+		- Object class A sends message to class B
+		- Object A creates an object B
+		- Object A has an atribute whose values are objects of class B
+		- Object A receives a message with object B as an argument
+	- Showing association
+		- ((63e26699-1b07-44f9-9bd2-624c35e53ab5))
+		- Should be read as "_PersonalTutor_ has 1 to 30 _tutees_, _tutees are students_"
+		- The ((63e2672f-a99a-4bb2-9017-7493244e93cb)) and ((63e26736-bb91-40b8-a47b-561590fac6bd)) are optional, they are there to make things clearer
+		- ((63e26781-658a-4a91-9eba-a5d93e4a1686))
+		  Course can access student
+	- Alternative showing of association
+		- ((63e26821-be02-48b3-85dd-60512be7001c))
+		- Only used for case 3 of object assoc
+		- Use one or the other
+-
+- # Software Component Interaction
+-

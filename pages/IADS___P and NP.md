@@ -1,0 +1,8 @@
+- ![IADS_24_PandNP.pdf](../assets/IADS_24_PandNP_1677591955668_0.pdf)
+- ![IADS_25_reductions.pdf](../assets/IADS_25_reductions_1678185164564_0.pdf)
+- ## Polynomial-time
+	- ((63fe068b-0968-4ef8-8bbe-ae5b8b6e2267))
+	- The problems must be described in binary format
+	-
+-
+-

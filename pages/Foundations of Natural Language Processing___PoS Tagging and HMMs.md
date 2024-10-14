@@ -1,0 +1,6 @@
+- ![12slides.pdf](../assets/12slides_1707350792949_0.pdf)
+	- J&M2:
+		- 6.1-6.4
+- ![13slides2.pdf](../assets/13slides2_1714856023133_0.pdf)
+	- J&M2:
+		- 6.(1-4)

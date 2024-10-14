@@ -1,0 +1,5 @@
+- *Design*: building something while working on behalf of someone/group of people
+- Influenced by Psychology, Sociology Anthropology, Art, Informatics and more
+- # Design Ethics
+	- *Dark Patterns* Are carefully crafted interfaces that trick people into performing actions they otherwise would not
+	-

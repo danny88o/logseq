@@ -1,0 +1,25 @@
+# Year 4
+	- [[Dissertation]]
+	- [[Modelling of Systems for Sustainability]]
+	- [[Automated Reasoning]]
+	-
+	-
+	-
+- # Year 3
+	- [[Modelling Concurrent Systems]]
+	- [[Computer Security]]
+	- [[Professional Issues]]
+	- [[Elements of Programming Languages]]
+	- [[Informatics Large Practical]]
+	- [[System Design Project]]
+	- [[Operating Systems]]
+	- [[Foundations of Natural Language Processing]]
+	- [[Denotational Semantics]]
+	-
+	-
+- # Year 2
+	- [[IADS]]
+	- [[ICS]]
+	- [[Data Science]]
+	- [[ReAgents]]
+	- [[SEPP]]

@@ -1,0 +1,4 @@
+- ![ILP_Course_Specification updated 4.1.pdf](../assets/ILP_Course_Specification_updated_4.1_1700050934441_0.pdf)
+- ![CW2 Specifications Essay.pdf](../assets/20230922_CW2_Specifications_(Essay)_1700050960893_0.pdf)
+- ![CW2 Programming Task.pdf](../assets/20230922_CW2_Specifications_(Programming_Task)_(1)_1700050972518_0.pdf)
+- [[SEPP/Week 5]]

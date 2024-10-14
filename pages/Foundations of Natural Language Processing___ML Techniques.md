@@ -1,0 +1,6 @@
+- ![09slides.pdf](../assets/09slides_1706978245230_0.pdf) [J&M3: 4.1-4.6](https://web.stanford.edu/~jurafsky/slp3/)
+- ![10slides.pdf](../assets/10slides_1707350757476_0.pdf) J&M3: [Section 5.1-5.7](https://web.stanford.edu/~jurafsky/slp3/)
+-
+-
+- # Smoothing and Noisy Channel Model
+	-

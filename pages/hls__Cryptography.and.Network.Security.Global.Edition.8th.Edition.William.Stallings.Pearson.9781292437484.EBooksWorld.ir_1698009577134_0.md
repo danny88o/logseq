@@ -1,0 +1,2 @@
+file:: [Cryptography.and.Network.Security.Global.Edition.8th.Edition.William.Stallings.Pearson.9781292437484.EBooksWorld.ir_1698009577134_0.pdf](../assets/Cryptography.and.Network.Security.Global.Edition.8th.Edition.William.Stallings.Pearson.9781292437484.EBooksWorld.ir_1698009577134_0.pdf)
+file-path:: ../assets/Cryptography.and.Network.Security.Global.Edition.8th.Edition.William.Stallings.Pearson.9781292437484.EBooksWorld.ir_1698009577134_0.pdf

@@ -1,0 +1,29 @@
+file:: [IADS_15_DFSandtopsort_1673950640982_0.pdf](../assets/IADS_15_DFSandtopsort_1673950640982_0.pdf)
+file-path:: ../assets/IADS_15_DFSandtopsort_1673950640982_0.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63c7dbeb-a0da-4d7b-bd79-d3b63ef30552
+  hl-type:: area
+  hl-stamp:: 1674042343078
+- forest 
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: blue
+  id:: 63c7dcbf-285e-45fb-8cc2-9bc71af4ee1b
+- [:span]
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: blue
+  id:: 63c7dcf8-a0e4-4878-b3f8-a2d94620919b
+  hl-type:: area
+  hl-stamp:: 1674042604835
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: blue
+  id:: 63c7e82d-e825-4c9c-b992-5f6c4e24c978
+  hl-type:: area
+  hl-stamp:: 1674045476473

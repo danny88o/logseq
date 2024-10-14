@@ -1,0 +1,62 @@
+- Slides
+	- ![Lecture 3.pdf](../assets/Lecture_3_1674224672266_0.pdf)
+	- ![Lecture 8.pdf](../assets/Lecture_8_1675433624686_0.pdf)
+	- ![Lecture 13.pdf](../assets/Lecture_13_1678198636372_0.pdf)
+	- ![Lecture 16.pdf](../assets/Lecture_16_1678198654917_0.pdf)
+	-
+-
+- # The Art of Arguing - Lecture 3
+-
+- # Organisation -  Lecture 8
+- ### Types of companies:
+	- ((63dd17dd-7b57-431d-8395-e08ae4cdfc37))
+		- Very Liable
+		- Very Simple
+	- ((63dd1800-5458-4e03-b2c5-53215ae9dfae))
+		- Very rare, only in legal and medical cases
+		- Everyone liable, very not good!
+	- ((63dd18e0-c8d5-4b02-b5a2-0cdaeeadfb6d))
+		- Company is separate from owner/worker
+		- Divided into shares
+		- No obligation to pay debts
+		- Shares can be listed on stock exchange
+	- ((63dd19e7-5f17-4690-af9a-f3a18d243d0f))
+		- Company is separate from owner/worker
+		- Divided into shares
+		- No obligation to pay debts
+		- Shares not held by public
+- ### Organizational Models
+	- Bureaucratic model
+		- Very strict
+		- Hierarchical
+	- Organic
+	- Matrix
+		- Bureaucratic model is too restrictive
+		- Is like a grid
+- When creating software, the company hierarchy must be taken into account
+- ### Managers
+	- Develops plans and timetables
+	- Organises
+	- Delegates
+- ### Leaders
+	- Perceived as most competent by peers
+	- Task-oriented
+	- Socio-emotional
+	- Inspire
+	- Innovates
+- # Intellectual Property -  Lecture 13
+- # Standards - Lecture 16
+- ### Intro
+	- Mainly international standards (ISO,IEC,ITU)
+	- Promotes market efficiency
+	- Foster international trade
+	- Lowers barriers of entry to market
+	- Protect human safety and security
+- ### ISO 9001
+	- Balances cost of risk against benefits of Opportunities
+	- ((64074993-4204-417d-996b-cef314df8b19))
+	- There is certification process that checks compliance
+	- Audits and then re-audits
+- ### Functional Safety
+	- Per IEC 61508
+	- As an enginnerign discipline, has existed forever (Roman soldier using leather sheath)

@@ -1,0 +1,19 @@
+# Cambridge Analytica
+- What do you think are the social and ethical implications of ‘microtargeting’ (personalised targeted ads), and the assumptions behind its use? How could this impact existing power dynamics between governments, tech corporations, and citizens?
+- ### Social and Ethical Implications:
+	- Democratic Undermining: Microtargeting undermines democratic processes, influencing public opinion without transparency or accountability.
+	- Lack of Legislation: Absence of legislation in the US regarding political ads on digital platforms allows unregulated dissemination of micro-targeted content.
+	- Spread of Misinformation: Micro-targeted content includes misinformation, raising concerns similar to past political campaign lies like the Brexit bus campaign.
+	- Combatting Misinformation: While microtargeting could combat misinformation, determining what qualifies as misinformation raises ethical dilemmas.
+	- Cheap and Dubious Advertising: Microtargeting utilises existing Facebook data, making political advertising cheaper but ethically questionable due to dubious data collection.
+	- Manipulation and Consent: Manipulation without consent is inherent in microtargeting, challenging ethical boundaries of advertising and power dynamics.
+	- Influence and Echo Chambers: Microtargeting not only influences individuals but creates echo chambers, amplifying extremist views within social spheres.
+	- Discriminatory Assumptions: Algorithms forming stereotypes could be incorrect, leading to discriminatory outcomes, especially concerning race or sexual orientation.
+	- Government’s Technological Disconnect: Governments' lack of awareness about technology exacerbates risks, potentially rendering them unaware of the extent of tech-related issues.
+- ### Power Dynamics:
+	- Amplified Political Reach: Microtargeting amplifies politicians' influence, especially targeting undecided voters, intensifying their sway over citizens.
+	- Distrust in Tech Corporations and Governments: Amplifies distrust in large tech corporations and governments due to unregulated use of data and influence over public opinion.
+	- Automated Individual Targeting: Automates and anonymizes individual targeting, replacing face-to-face interactions, potentially undermining genuine democratic deliberation.
+	- Psychological Manipulation: Enables widespread psychological manipulation, especially for those who have technically consented but lack informed consent, raising ethical concerns.
+	- Entrenched Power of Governments and Tech Corporations: Reinforces the power of governments and tech corporations, mutually benefiting each other and potentially leading to increased corporate influence in politics, especially in countries where lobbying is prevalent.
+	- Group B : Ben Pritchard, Daniel Pinkney, Toby Wyckoff Smith, Martin Namukombo, Liangjun Fu

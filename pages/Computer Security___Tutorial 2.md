@@ -1,0 +1,12 @@
+- ![crypto_tutorial.pdf](../assets/crypto_tutorial_1697716111432_0.pdf)
+- ## Question 1 Hash Functions
+- a) A hash function is one-way if it is easy to compute h(M), but it is hard/impossible to find Message M from the hash values
+- b) A hash function is collision resistant if for messages $M_1$ and $M_2$ it is hard to find 2 hash values such that $h(M_1)=h(M_2)$. That is for the same message it is hard to find 2 messages that go to the same hash value.
+- c)  If collision resistant it does not imply one way, as h(M) = M+1 will never collide, but it is easy to compute M from a t
+- d) If one-way does not imply collision resistant
+-
+- ## Question 2 Symmetric Encryption
+- a)
+-
+- ## Question 3 Cryptographic Proofs
+-

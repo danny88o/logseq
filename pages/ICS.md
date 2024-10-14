@@ -1,0 +1,22 @@
+- Topic
+	- [[ICS/Data Representation]]
+	- [[ICS/Logic Design]]
+	- [[ICS/Single Cycle]]
+	- [[ICS/MultiCycle]]
+	- [[ICS/Memory Hierarchy]]
+	- [[ICS/Virtual Memory]]
+	- [[ICS/Exceptions and Management]]
+- Textbook
+	- ![COD.pdf](../assets/CS422-Computer-Architecture-ComputerOrganizationAndDesign5thEdition2014.pdf)
+- Slides
+	- ![Data Rep.pdf](../assets/Data Representation.pdf)
+	- ![Assembly.pdf](../assets/Assembly_1671549772366_0.pdf)
+	- ![C.pdf](../assets/C_1671558041588_0.pdf)
+	- ![Logic design.pdf](../assets/Logic_design_1671558066884_0.pdf)
+	- ![Single Cycle.pdf](../assets/Single_Cycle_1671549159015_0.pdf)
+	- ![MultiCycle.pdf](../assets/MultiCycle_1671558087749_0.pdf)
+	- ![Memory Hierachy.pdf](../assets/Memory_Hierachy_1671558111533_0.pdf)
+	- ![Virtual Memory.pdf](../assets/Virtual_Memory_1671558201006_0.pdf)
+	- ![Exceptions and Management.pdf](../assets/Exceptions_and_Management_1671558216220_0.pdf)
+	- ![C.pdf](../assets/C_1671637774020_0.pdf)
+	- ![In a nutshell.pdf](../assets/In_a_nutshell_1671558225342_0.pdf)

@@ -1,0 +1,31 @@
+- R&N Section 10.1, 10.2, 10.4
+- ![16.pdf](../assets/16_1677770110983_0.pdf)
+- ![Lecture 17.pdf](../assets/17_1677769912147_0.pdf)
+- ![18.pdf](../assets/18_1677856495744_0.pdf)
+- # Classical Planning
+- ## PDDL (Planning Domain Definition Language)
+	- Expresses **factored representation** ((63fde340-36f8-424a-9c53-382937cd6bc0))
+	- Each state is represented as a conjunction of ground, functionless atoms
+	- A package truck delivery problem might be $$At(Truck_1,Melbourne)\land At(Truck_2,Sydney)$$
+	- ((63fde733-fdd1-45a3-8406-16cee8fdfb4d)) -- Interesting example!
+	- ### Contains:
+		- States - Conjunction of propsoitionals or positive literals
+		- Goal - Partial description of a state
+		- Action:
+			- Precondition -  States in which and action is executable
+			- Effect - How the literals in the input state get changed
+-
+- ## Partial Order Planning
+	- - Preprocessing
+	- Actions - initial plan contains dummy actions Start and Finish
+		- Start sets initial state
+		- Finish has the goal state as a precondition
+	- - Plan
+	- Ordering constraints
+		- A must occur before B
+	- Casul links
+		- The effect of A must not alter the precondition for B
+	-
+- ## Real World Panning
+	- The state is never fully codeable
+	-

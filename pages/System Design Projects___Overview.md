@@ -1,0 +1,6 @@
+- Robotic Chaos
+- # Goals
+- Practical experience for a large scale system
+- Be a member of a team
+-
+- ## Assistive Robotics

@@ -1,0 +1,20 @@
+## Automation
+	- A main function of technology
+	- "Here is a better process than the human process"
+	- Has an unfair advantage
+		- Focus in quantitive measures - Easy to measure in automation
+		- Easy to measure $\implies$ Easy to automate (generally)
+		- "Human touch" cant be measure quantitively, is lost
+- ## Human advantage
+	- Robust:
+		- Adaptable
+		- Trusted more, even despite data at times
+		- Accountable
+	- Intrinsic value:
+		- Benefit from human interaction
+		- The manner of interaction matters
+		- Care robots are cold
+	- Benefactors:
+		- Values goes both ways
+		- Value in doing work - Artists Like doing work, sewer people dont
+			-

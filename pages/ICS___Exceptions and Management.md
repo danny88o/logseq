@@ -1,0 +1,58 @@
+- ((63a22e4f-5092-45cf-a772-994f6bd75302)), events that change the normal flow of instructions being executed that require attention of the OS.
+- ((63a22f8c-9850-4eb8-8102-6b21b0cdc794)) (internal vs if its external)
+	- ((63a2339b-2ec7-4d02-90f6-6258e129a386)) interrupts
+		- I/O interrupt
+	- ((63a233bf-d0c1-43ab-8d10-34e7ec0126ed)) traps
+		- TLB miss
+		- syscall
+-
+- ((63a23439-c182-4167-b1f6-824ff2233319))
+	- Software that manages resources
+	- ((63a2348c-208a-4baf-b0db-993d0dca478d))
+		- First to be loaded
+		- Manages interrupts
+		- Schedules Processes
+		- Manages memory
+-
+- Intentional exceptions
+	- Request certain OS functions, ex:
+		- I/O
+		- Memory
+	- In MIPS
+		- Register $v0 is set to type of syscall wanted
+		- Parameters are passed through $a0, $a1...
+		- syscall then called
+-
+- Handling exceptions in MIPS
+	- Steps:
+		- Store the address of current instruction in the (EPC) ((63a230ff-90d2-4221-a745-c420b83e874b))
+		- Transfer control to OS (address known), which starts kernel mode
+		- Preserve registers
+		- Handle exception
+		- return to program using ((63a236b3-76de-4af0-a7b3-bf5d241ce438)), and returns to user mode
+		-
+	- OS has to know nature of exception to handle it:
+		- MIPS uses a status register (Cause) to record it
+			- If restartable, take corrective action
+			- else terminate and report error using EPC and Cause
+		- Alternatively vectored interrupts ((63a23089-3d26-4812-a16d-3802ede7ad22))
+-
+- Why is it so involved?
+	- OS has to guarantee safe access to system resources
+	- The supreme arbiter
+		- TLB miss, acceptable, access page table to service
+		- Overflow, may be okay
+		- Illegal opcode, must be killed ruthlessly and without mercy
+- ((63a23a77-aba0-4ff6-8f5c-4fe426461719))
+	- Guarantees that control is by OS during "Dangerous tasks"
+	- OS stops programs from:
+		- interfering with each other
+		- access to resources they do not have permission too
+	- Time sharing of CPU
+		- Multiplex the CPU and memory among several user processes
+		- Switch frome one process to another when:
+			- it performs I/O
+			- its time slice expires
+		- ((63a23cdb-fc89-4f18-a98b-4bfeaf1081cb))
+		- ((63b6d11a-3785-4175-9901-fdf0a479d76d))
+		-

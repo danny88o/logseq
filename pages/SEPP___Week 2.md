@@ -1,0 +1,108 @@
+- ![lecture4_requirements.pdf](../assets/lecture4_requirements_1674569632640_0.pdf)
+- ![lecture5_use-cases.pdf](../assets/lecture5_use-cases_1674742479553_0.pdf)
+- ![lecture6_requirements_different_contexts.pdf](../assets/lecture6_requirements_different_contexts_1674829142360_0.pdf)
+-
+- ## Software Requirements Basics
+	- ((63cfe81c-2f99-45d2-bd65-61d0a43ef6b7))
+	- Requirements engineering is used to systematicly handle requirements
+	-
+	- Requirement types:
+		- Functional - Input output style
+		- Non-functional(ilities) - Efficiency, Reliability, Usability, Security
+	- Non-func are usually more important
+		- Func and non-func requirements sometimes will contradict, func may need to be sacrificed
+		- User experience is based on non-func
+	- E.g.
+		- (Non-Functional) The system shall protect the personal information of its users.
+		- (Functional) The system shall use two factor authentication.
+	-
+	- Requirements are usually high-level, **what** is desired not **how**
+	-
+- ## Stakeholders in requirements
+	- ((63cfec8b-3f1e-4c4c-a0c2-d8ebd26a9134))
+	- ((63cfece0-882a-4ed3-9f93-b04798a4fe30))
+- # Requirement Engineering
+- ((63d045a1-35ca-415c-b3e3-7773797b1b2c))
+- The major source of project failure according to the CHAOS reports
+- ## Requirement Elicitation
+	- ### Interviews
+		- Ask what they want/what they currently do
+		- Jargon specific to that industry can be confusing
+		- The interviewed can omit things that to them are obvious
+		- Try to enter with an open mind
+		- Prepare starting/leading questions
+	- ### Scenarios
+		- Go over possible interactions with the system
+		- What if ...?
+		- Can be captured as use cases
+	- ### Prototypes
+		- Provides high quality feedback
+		- Often resolves ambiguitie
+	- ### Facilitated Meetings
+		- Get Discussion with multiple stakeholders
+		- Helps with the intersection of activities, easier to see the bigger picture
+		- Helps resolve conflicting requirement ideas
+		- Trained facilitator is needed, stuff like people being able to speak to bosses plainly
+	- ### Observation
+		- Suitable if replacing existing system or business process
+		- Allows nuance/subtle tasks to be seen
+		- Can be expensive
+		- Not very good for innovation
+- ## Post-Requirement Elicitation
+	- May contain conflicts
+	- May be too large
+	- ### Specification
+		- Informal e.g. handwritten
+		- Carefully structured
+			- shall for an essential feature or one that will definitely be implemented
+			- should for a desirable
+			- At launch, everything should be shall
+		- Use models with supporting text
+		- Latex
+	- ### Checks
+		- Consistent, Complete
+		- Realistic, time+money
+		- Verifiability, possible to test
+			- e.g. Response time under X
+-
+- ## Use Cases
+	- ((63d28b0a-a639-4802-813b-9af88b88a86d))
+	- User is any external system (not just human) that interacts with the system
+	-
+	- ### Actors
+		- Users who take an active part in the use case
+		- The have some role, customer not 'Mary'
+		- Types:
+			- Primary - Triggers the use case
+			- Supporting - Also involved
+		- Not all stakeholders are actors
+		- This provides a way to view everything as an object in OOP
+	- ### Scenarios
+		- Use cases are a set of scenarios
+		- ((63d29009-5fd6-43f7-8c06-be6da207d549))
+	- ### Limitations of use cases
+		- May needlessly constrain design
+		- Include supporting actors that are not essential
+		- May miss requirements
+-
+- # Plan-Driven development Processes vs Agile
+	- ((63d3ddc5-6e70-4f07-bcaf-bbe53c92dd6d))
+		-
+	- ((63d3de10-9ac2-4562-929b-93d9006ccfc1))
+		- Happening at the same time with design and implementation
+		- Only some requirements during each iteration
+		- Requirements are the minimum viability
+- ## Software Projects
+	- Usually provided as a contract, a plan driven production makes sense to keep requirements in check
+	- If contract doesnt have requirements, or customers paying for time not functionality use agile
+- ## Software Products
+	- 1. Attract customers
+	  2. Need to beat competition
+	  3. Speedy delivery to the market of the essence
+	  4. Reactivity to changes (needs, competitors with new features)
+	  5. Few products have innovated without customer input; Fewer have then kept their customers.
+	- Agile is good for 1-4
+- ## Personnas
+	- ((63d3e261-bc59-42b1-b81f-ac961affbf3d))
+	- Helps explain why the system will be useful
+	-

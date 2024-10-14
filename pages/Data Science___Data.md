@@ -1,0 +1,6 @@
+- Slides
+	- ![FDS-S1-02-1-data.pdf](../assets/FDS-S1-02-1-data_1672950456287_0.pdf)
+- Notes
+	- ![FDS-S1-02-notes-data.pdf](../assets/FDS-S1-02-notes-data_1672950480838_0.pdf)
+	- ![FDS-S1-02-2-notes-statistical-preliminaries.pdf](../assets/FDS-S1-02-2-notes-statistical-preliminaries_1672950498646_0.pdf)
+	-

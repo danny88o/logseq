@@ -1,0 +1,2 @@
+file:: [engineering-software-products-an-introduction-to-modern-software-engineering-1nbsped-013521064x-9780135210642_compress_1674136364584_0.pdf](../assets/engineering-software-products-an-introduction-to-modern-software-engineering-1nbsped-013521064x-9780135210642_compress_1674136364584_0.pdf)
+file-path:: ../assets/engineering-software-products-an-introduction-to-modern-software-engineering-1nbsped-013521064x-9780135210642_compress_1674136364584_0.pdf

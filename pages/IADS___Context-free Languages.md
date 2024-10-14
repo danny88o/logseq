@@ -1,0 +1,38 @@
+- ![IADS_21_context_free(1).pdf](../assets/IADS_21_context_free(1)_1675764777395_0.pdf)
+- ![IADS_22_cyk_parsing_live.pdf](../assets/IADS_22_cyk_parsing_live_1675764783257_0.pdf)
+- # Intro
+-
+- ## Chomsky Normal Form (CNF)
+	- RHS has to be in either:
+		- ((63e224d8-5e5b-4f3b-973f-25293796650c))
+		- ((63e224de-f835-4bcf-bfa2-d72148aa550e))
+	- E.g:
+		- ((63e2250c-b030-4857-b605-d198ab38bc50))
+		  Generates "My (very) heavy orange (book)
+	- ### Convert to CNF
+		- Language to convert ((63e22ccc-61fa-451b-9505-d973fd8bd0fe))
+		- 1. Apply rule for $>=3$ symbols
+			- ((63e22cdf-a562-41fb-a97e-64b3358bba24))
+			- 2. Identify set of all non terminal such that epsilon can be derived
+				- ((63e4c632-9a12-4d94-9081-ef933760d232))
+			- 3.
+- ## Cocke-Younger-Kasam (CYK) algorithm
+	- ### Prep
+		- Insert 'position markers'
+		  ((63e225dd-847a-4a9f-a891-2ae5cd72dfe3))
+		- Substring (2,4) corresponds to heavy orange
+-
+	- ### ((63e22690-25fe-43e0-851b-929f22f6f0bb))
+		- Fill out the diagonal
+		- Combine using the rules into the cell above after each entry
+			- E.g. ((63e22870-dfda-4108-8e45-ea34647ede20))
+		- Can be combined several times ((63e2288d-6b45-49d3-ba27-6e7ab93f0afc))
+		- NP might not be final ((63e228a6-f26e-4b8c-bbdc-4e17f29fed4f))
+		- Pseudocode: ((63e22980-330a-44ad-bd57-aa9155a83bf5))
+	- ### Recognizer to parser
+		- Record HOW the constituents were parsed
+	- ### Runtime
+		- $O(n^3)$
+			- if grammar varies, $O(mn^3)$ where m is the 'size' of the grammar
+		- The reason to use CNF is that runtime would become $Θ(n^4)$
+		-

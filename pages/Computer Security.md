@@ -1,0 +1,16 @@
+- ![Goodrich, Michael T_Tamassia, Roberto - Introduction to computer security.pdf](../assets/Goodrich,_Michael_T_Tamassia,_Roberto_-_Introduction_to_computer_security_(2014,_Pearson_Education_Limited)_1695201316323_0.pdf)
+- ![Cryptography and Network.Security.pdf](../assets/Cryptography.and.Network.Security.Global.Edition.8th.Edition.William.Stallings.Pearson.9781292437484.EBooksWorld.ir_1698009577134_0.pdf) Secure Communications
+- https://www.learn.ed.ac.uk/ultra/courses/_98125_1/cl/outline
+-
+- ## Course Materials
+- [[Computer Security/Intro]]
+- [[Computer Security/Network Security]]
+- [[Computer Security/Cryptography]]
+- [[Computer Security/Secure Communications]]
+- [[Computer Security/OS Security]]
+- [[Computer Security/Web Security]]
+-
+-
+- ## Tutorials
+- [[Computer Security/Tutorial 1]]
+- [[Computer Security/Tutorial 2]]

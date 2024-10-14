@@ -1,0 +1,15 @@
+- Textbooks
+	- ![CLRS.pdf](../assets/CLRS_1667302664150_0.pdf)
+	-
+-
+- [[IADS/Asymptotic]]
+- [[IADS/Program Data]]
+- [[IADS/Data Types]]
+- [[IADS/Balanced Trees and the Master Theorem]]
+- [[IADS/Heap]]
+- [[IADS/Quicksort]]
+- [[IADS/Graph Theory]]
+- [[IADS/Dynamic Programming]]
+- [[IADS/Context-free Languages]]
+- [[IADS/Predictive Parsing]]
+- [[IADS/P and NP]]

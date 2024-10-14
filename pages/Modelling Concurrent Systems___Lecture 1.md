@@ -1,0 +1,26 @@
+# Specification vs Implementation
+	- Mathematical models for *Formal Specification* and *Abstract Implementations*
+	- Verification for bi-implication
+	-
+- # Administrative Overview
+	- Weekly homework, formative feedback no mark
+	- Choose some to be marked and graded
+-
+- ## Relay Concurrent System Example
+	- Runner 1: $Starts \implies Runs \implies Gives Batton$
+	- $RUNNER_1 := start \cdot give$
+	- $RUNNER_2:= receive \cdot finish$
+	- Sequential composition: $RUNNER_1 || RUNNER_2$
+	- Act = $\{start, give, recieve, finish\}$
+		- However this composition would imply that receive, finish start give could occur.
+	- So create a partial function: $(\gamma(recv,give) = handover)$
+		- Act = $\{start, give, receive, finish, handover\}$
+		- But you can still do impossible action sequences
+	- $\delta_H(RUNNER_1 || RUNNER_2)$       $H=\{give,recv\}$  This delets actions give and recv
+	- Now only possible path is $start \cdot handover \cdot finish$
+		- However SPEC = $start\cdot finish$
+	- Branching Bisimulation
+		- $\tau_I(\delta_H(RUNNER_1 || RUNNER_2)$)  $I = \{handover\}$
+	- # I genuinely found this really fun
+		-
+	-

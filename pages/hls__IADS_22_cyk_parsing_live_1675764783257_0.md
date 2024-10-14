@@ -1,0 +1,95 @@
+file:: [IADS_22_cyk_parsing_live_1675764783257_0.pdf](../assets/IADS_22_cyk_parsing_live_1675764783257_0.pdf)
+file-path:: ../assets/IADS_22_cyk_parsing_live_1675764783257_0.pdf
+
+- either just two non-terminals (e.g. X → YZ )
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 63e224d8-5e5b-4f3b-973f-25293796650c
+- or just one terminal (e.g. X → +).
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 63e224de-f835-4bcf-bfa2-d72148aa550e
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 63e2250c-b030-4857-b605-d198ab38bc50
+  hl-type:: area
+  hl-stamp:: 1675765004425
+- Cocke-Younger-Kasam
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 63e2255b-ddbb-4633-80d5-8d860ed8f12a
+- [:span]
+  ls-type:: annotation
+  hl-page:: 20
+  hl-color:: yellow
+  id:: 63e225dd-847a-4a9f-a891-2ae5cd72dfe3
+  hl-type:: area
+  hl-stamp:: 1675765213682
+- Filling out the CYK chart
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 63e22690-25fe-43e0-851b-929f22f6f0bb
+- AP
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 63e22870-dfda-4108-8e45-ea34647ede20
+- Nom
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 63e2288d-6b45-49d3-ba27-6e7ab93f0afc
+- NP
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 63e2289d-6cb8-4d25-91b7-d2d0ad708674
+- NP 
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 63e2289f-9b53-4d87-bd2b-0e39d0aac60e
+- NP
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 63e228a2-9f2a-4d77-8216-4e3a43aff5f7
+- NP 
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 63e228a6-f26e-4b8c-bbdc-4e17f29fed4f
+- [:span]
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: yellow
+  id:: 63e22980-330a-44ad-bd57-aa9155a83bf5
+  hl-type:: area
+  hl-stamp:: 1675766142718
+- [:span]
+  ls-type:: annotation
+  hl-page:: 49
+  hl-color:: yellow
+  id:: 63e22ccc-61fa-451b-9505-d973fd8bd0fe
+  hl-type:: area
+  hl-stamp:: 1675766987643
+- [:span]
+  ls-type:: annotation
+  hl-page:: 50
+  hl-color:: yellow
+  id:: 63e22cdf-a562-41fb-a97e-64b3358bba24
+  hl-type:: area
+  hl-stamp:: 1675767006256
+- [:span]
+  ls-type:: annotation
+  hl-page:: 51
+  hl-color:: yellow
+  id:: 63e4c632-9a12-4d94-9081-ef933760d232
+  hl-type:: area
+  hl-stamp:: 1675937328327

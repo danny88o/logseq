@@ -1,0 +1,26 @@
+- Textbooks
+	- ![Software Engineering Sommerville (SE).pdf](../assets/Software-Engineering-9th-Edition-by-Ian-Sommerville_1674136329729_0.pdf) V9
+	- ![I Sommerville - Software Engineering, 10th Edition.pdf](../assets/I_Sommerville_-_Software_Engineering,_10th_Edition_1674488890830_0.pdf)
+	- ![Engineering Software Products Sommerville (ESP).pdf](../assets/engineering-software-products-an-introduction-to-modern-software-engineering-1nbsped-013521064x-9780135210642_compress_1674136364584_0.pdf)
+	- ![swebok-v3.pdf](../assets/swebok-v3_1674488607907_0.pdf)
+	- ![Frank Bott - Professional Issues in Information Technology (2014).pdf](../assets/Frank_Bott_-_Professional_Issues_in_Information_Technology-BCS,_The_Chartered_Institute_for_IT_(2014)_1674488944611_0.pdf)
+-
+- Topics
+	- [[SEPP/ProP]]
+	- [[SEPP/Intro]]
+	- [[SEPP/Week 2]]
+	- [[SEPP/Week 3]]
+	- [[SEPP/Week 4]]
+	- [[SEPP/Week 5]] _Design patterns_
+	- [[SEPP/Week 6]] _Construction_
+	- [[SEPP/Week 7]] Testing
+	- [[SEPP/Week 8]]
+	-
+-
+- Tutorials
+	- [[SEPP/Tutorial 2]]
+	- [[SEPP/Tutorial 5]]
+	-
+-
+- Coursework
+	- [[SEPP/CW1]]

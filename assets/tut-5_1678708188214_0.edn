@@ -1,0 +1,44 @@
+{:highlights
+ [{:id #uuid "640f0e20-227e-4eee-b986-9b40e5edf4f3",
+   :page 2,
+   :position
+   {:bounding
+    {:x1 102.30000001192093,
+     :y1 713.1875152587891,
+     :x2 388.93354493379593,
+     :y2 725.1875305175781,
+     :width 640,
+     :height 905.1424885263307},
+    :rects
+    ({:x1 102.30000001192093,
+      :y1 713.1875152587891,
+      :x2 388.93354493379593,
+      :y2 725.1875305175781,
+      :width 640,
+      :height 905.1424885263307}),
+    :page 2},
+   :content
+   {:text "switch (each.getDisc().getMovie().getPriceCode()) {"},
+   :properties {:color "yellow"}}
+  {:id #uuid "640f0fb6-db40-4792-8ab0-1bd3960713eb",
+   :page 3,
+   :position
+   {:bounding
+    {:x1 102.30000001192093,
+     :y1 325.88751220703125,
+     :x2 377.6904419064522,
+     :y2 337.88751220703125,
+     :width 640,
+     :height 905.1424885263307},
+    :rects
+    ({:x1 102.30000001192093,
+      :y1 325.88751220703125,
+      :x2 377.6904419064522,
+      :y2 337.88751220703125,
+      :width 640,
+      :height 905.1424885263307}),
+    :page 3},
+   :content
+   {:text "frequentRenterPoints + = thisFrequentRenterPoints"},
+   :properties {:color "yellow"}}], 
+ :extra {:page 3}}

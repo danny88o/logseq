@@ -1,0 +1,45 @@
+- ![00-OVERVIEW.pdf](../assets/00-OVERVIEW(1)_1705396874201_0.pdf)
+- ![01a-INTRO-hardware.pdf](../assets/01a-INTRO-hardware_1705397123696_0.pdf)
+- ![01b-INTRO-OS.pdf](../assets/01b-INTRO-OS_1705397130600_0.pdf)
+-
+- # What OS?
+	- The first thing that runs
+	- Manages the computers hardware
+	- SO the intermediary
+	- BIG program - ((65a64c50-bdb1-4e2a-a981-fbc59e124792))
+	-
+	- ## Goals of an OS
+		- The intermediary allows for abstraction of hardware
+		- Write once run everywhere with same OS and ISA
+		- Efficient use  of hardware
+		- Isolation Security and Protection
+		- Reliability
+-
+- # Why OS?
+	- Simplicity - see files instead of device registers
+	- Portability
+	- Safety - every program only "sees" its own virtual machine
+	- Efficiency
+-
+- ## Hardware Recap
+- ### Devices
+	- Every one has a device controller that
+		- Moves data
+		- Runs in parallel  to cpu
+		- Has buffers
+	- Reading file on disk
+	  ((65a651dd-d385-461d-8b2c-73607d944112))
+-
+- # When OS?
+	- 60 year long evolutionary process
+	- ## Evolution
+		- ((65a8ed7e-f3a6-4d78-973c-6f7d307f5e95))
+		- ### Asynchronous I/O
+			- One, Program at the time, one user at the time
+		- ### Multiprogram
+			- TODO
+		- ### Timesharing
+			- TODO
+		- ### Parallel Systems
+			- TODO
+	-

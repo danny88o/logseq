@@ -1,0 +1,4 @@
+- ![fnlp18slides.pdf](../assets/fnlp18slides_1715015047801_0.pdf)
+- ![fnlp19slides.pdf](../assets/fnlp19slides_1709639408094_0.pdf) [J&M3](http://web.stanford.edu/~jurafsky/slp3/27.pdf)
+- ![fnlp20slides.pdf](../assets/fnlp20slides_1715015167660_0.pdf)
+- ![21slides.pdf](../assets/21slides_1715015176875_0.pdf)

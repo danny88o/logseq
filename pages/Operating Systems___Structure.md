@@ -1,0 +1,19 @@
+- ![02a-STRUCT-syscall.pdf](../assets/02a-STRUCT-syscall_1705570783384_0.pdf)
+- ![02b-STRUCT-OS.pdf](../assets/02b-STRUCT-OS_1713804279034_0.pdf)
+- ![03-DEV.pdf](../assets/03-DEV_1713804303601_0.pdf)
+- Reading: 2.1-2.3
+-
+- # Structure
+	- ## Protection
+		- ### Priviliged vs Unprivileged
+			- ((65a8f2fb-5e00-481e-8f8b-7a0c6977f8bb))
+		- ### OS Protection
+			- Architecture must support at least 2 modes
+				- kernel
+				- user
+			- x86 supports 4
+				- ((65a8f3b7-c531-4ce2-9cef-3a892cc12b79))
+		- ### Syscall
+			- Allows crossing of protection Boundaries
+			- To read files, print out etc..
+			-

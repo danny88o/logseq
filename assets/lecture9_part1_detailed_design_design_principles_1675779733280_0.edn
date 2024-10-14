@@ -1,0 +1,22 @@
+{:highlights
+ [{:id #uuid "63e25ec2-56d8-49e5-b22b-9f52c410605e",
+   :page 6,
+   :position
+   {:bounding
+    {:x1 47.23750305175781,
+     :y1 53.19999694824219,
+     :x2 332.2759552001953,
+     :y2 74,
+     :width 604.7249999999999,
+     :height 453.54333333333324},
+    :rects
+    ({:x1 47.23750305175781,
+      :y1 53.19999694824219,
+      :x2 332.2759552001953,
+      :y2 74,
+      :width 604.7249999999999,
+      :height 453.54333333333324}),
+    :page 6},
+   :content {:text "Which of these two designs is better?"},
+   :properties {:color "green"}}], 
+ :extra {:page 6}}

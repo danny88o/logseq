@@ -1,0 +1,64 @@
+- Reading:
+	-
+- Resources:
+	- ![01slides.pdf](../assets/01slides_1705407301677_0.pdf) J&M2 ((65afc494-a0bf-4d48-9a1e-276c30e9b9c8))
+	- ![02slides.pdf](../assets/02slides_1705580277335_0.pdf) Same
+	- ![03slides.pdf](../assets/fnlp03slides_1705580082402_0.pdf) [NLTK Chapter 11](https://www.nltk.org/book_1ed/ch11.html)
+	-
+-
+-
+- # What NLP?
+	- A lot!
+	- Applications:
+	  ((65a6761e-7c67-4e4c-9513-7f6bd0456b3d))
+	- Core technologies:
+	  ((65a6763c-0795-4d7b-bc57-deb2e7e8b624))
+-
+- # Why NLP hard?
+	- ## Language is hard to process
+	- Meaning to language is one to many - the same thing can be said in multiple ways
+	- Language to Meaning is also one to many - ambiguity with words
+	-
+- # Ambiguity
+	- Uncertainty in interpretation
+	- Homophones: blew vs blue
+	- Word senses: bank?
+	- Syntactic:
+		- I saw a girl with a telescope
+		- Grows very quickly!
+		- $${\frac {4^{n}}{n^{3/2}{\sqrt {\pi }}}},$$
+		-
+		-
+	- Quantifies
+	- Reference: John dropped the goblet onto the glass table and it broke
+	- Discourse: The meeting is cancelled. Nicholas isn’t coming to the office today - Action o Reaction?
+	- ## Variability
+		- Uncertainty in specific realization for a semantic concept
+		- The same meaning can be conveyed in many ways
+		- e.g. He drew the house <-> He made a sketch of the house
+	- ## Sparsity
+		- ### Zipf's Law
+		  $$f \times r \approx k$$
+		- TODO
+	- ## Robustness
+		- Uncertainty with input
+		- Training on Wall Street Journal wont work on social media talking
+		- Does have implications for fairness
+	- ## Context Dependance
+		- Requires world kowledge
+		- LLM are bad at modelling their own uncertainty
+	- ## Unknown Representation
+		- Metaphysics, what is "meaning"?
+		- How do we model context
+		- Other general knowledge
+	- ## Language Diversity
+		- TODO
+-
+- # Uncertainty
+	- Need probabilistic models / machine learning
+	- ## Statistical NLP
+		- Typically more robust than rule based methods
+		- Learned from data
+		- Needs *lots* of data
+		- ### History
+			-

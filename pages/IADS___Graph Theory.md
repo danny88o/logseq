@@ -1,0 +1,42 @@
+- Reading 2.1-2.4
+- Slides
+	- ![IADS_14_graphtraversal.pdf](../assets/IADS_14_graphtraversal_1673950632565_0.pdf)
+	- ![IADS_15_DFSandtopsort.pdf](../assets/IADS_15_DFSandtopsort_1673950640982_0.pdf)
+	- ![IADS_16_Dijkstra.pdf](../assets/IADS_16_Dijkstra_1673950178488_0.pdf)
+- ## Representing Graphs
+	- Graphs can be drawn, however is not suitable for computer representation
+		- ((63c6858d-8d81-4ef4-8d4d-6ea3a1eb638c))
+	- Adjacency-list, used for sparse graphs, when |E| is much less than |V|^2
+		- ((63c68578-b54d-4907-b16f-be069a171764))
+	- Adjacency-matrix, for dense graphs, when |E| is close to |V|^2
+		- ((63c6854d-4d68-43c2-a36d-70d37fe18859))
+	- ((63c7d8b4-1a01-4788-b7e6-41b6ddf23220))
+	-
+- ## Breadth First Search
+	- Computes the distance from a source vertex to every other vertex
+	-
+	- ((63c7d5f8-2038-4409-b6e9-bbfc75baf5c1))
+- ## Depth First Search
+	- Always searches as deep as possible into the graph
+	- Visits a non-visited neighbouring node until it reaches a node with no neighbours that can be visited.
+		- Recursive DFS ((63c7dbeb-a0da-4d7b-bd79-d3b63ef30552))
+		  id:: 63c7da99-d5a5-4f7d-9934-10bed4bd6463
+	- ### Forest
+		- Traversing a DFS builds up a ((63c7dcbf-285e-45fb-8cc2-9bc71af4ee1b))
+		- ((63c7dcf8-a0e4-4878-b3f8-a2d94620919b))
+		- First created is created by starting at 0
+		- Once all accessible nodes are reached from 0, checks whether more remain
+		- Second tree is then created
+		- Many trees create a forest
+- ## Topological Sorting
+	- ((63c7e82d-e825-4c9c-b992-5f6c4e24c978))
+	- A directed acyclic graph (DAG) is a directed graph without cycles
+	- A directed graph has a topological order if and only if it is a DAG
+	- LATER Finish Topological
+- ## Dijkstra
+	- Find the shortest path between 2 nodes
+	- Is usually used on a weighted graph
+	- Is a type of greedy algorithm
+	- O(m+n)lg(n) - where n =nº verteces, m =nº of edges
+	- ((63c7efbc-0438-4a31-96de-1fc2f69acd53))
+		-

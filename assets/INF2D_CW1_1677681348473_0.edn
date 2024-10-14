@@ -1,0 +1,36 @@
+{:highlights
+ [{:id #uuid "63ff62e2-7399-479b-b745-1bfe702d1679",
+   :page 3,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 366.4000053405762,
+     :x2 564.9891891479492,
+     :y2 671.8624992370605,
+     :width 639.9999999999999,
+     :height 828.235294117647},
+    :rects
+    ({:x1 0,
+      :y1 366.4000053405762,
+      :x2 0,
+      :y2 385.6000175476074,
+      :width 639.9999999999999,
+      :height 828.235294117647}
+     {:x1 97.2874984741211,
+      :y1 647.3624992370605,
+      :x2 564.9891891479492,
+      :y2 659.3624992370605,
+      :width 639.9999999999999,
+      :height 828.235294117647}
+     {:x1 115.80000305175781,
+      :y1 659.8624992370605,
+      :x2 273.1734619140625,
+      :y2 671.8624992370605,
+      :width 639.9999999999999,
+      :height 828.235294117647}),
+    :page 3},
+   :content
+   {:text
+    "(a) (5 points) Write down the variables and the domain (before applying any of the constraints) to translate this into a CSP problem."},
+   :properties {:color "yellow"}}], 
+ :extra {:page 5}}

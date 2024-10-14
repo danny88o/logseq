@@ -1,0 +1,11 @@
+- Slides
+	- ![FDS-S2-02-1-1-principle-ab-testing.pdf](../assets/FDS-S2-02-1-1-principle-ab-testing_1674468483310_0.pdf)
+	- ![FDS-S2-02-1-2-increasing-certainty.pdf](../assets/FDS-S2-02-1-2-increasing-certainty_1674468495893_0.pdf)
+	- ![FDS-S2-02-1-3-large-sample-theory-ab.pdf](../assets/FDS-S2-02-1-3-large-sample-theory-ab_1674468508680_0.pdf)
+	- ![FDS-S2-02-1-4-issues-ab-testing.pdf](../assets/FDS-S2-02-1-4-issues-ab-testing_1674468517847_0.pdf)
+- Lecture Notes
+	- ![FDS-S2-02-1-two-samples.pdf](../assets/FDS-S2-02-1-two-samples_1674468634109_0.pdf)
+-
+- ## A/B Testing
+	- Amazon employee tested suggesting other similar items on check-out
+	-

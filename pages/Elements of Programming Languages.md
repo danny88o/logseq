@@ -1,0 +1,18 @@
+- Textbooks
+	- ![Practical Foundations for Programming Languages (PFPL)](../assets/Practical_foundations_for_programming_languages,_second_edition_1697458359559_0.pdf)
+	- ![Concepts in Programming Languages.pdf (CPL)](../assets/Concepts_in_Programming_Languages_-_MITCHELL_1697804408771_0.pdf)
+-
+- Topic
+	- [[Elements of Programming Languages/Types and Basics]] Lectures: 1,2,3
+	- [[Elements of Programming Languages/Variables and Functions]] Lectures 4,5
+	- [[Elements of Programming Languages/Data Structures and Polymorphism]] Lectures: 6,7,8
+	- [[Elements of Programming Languages/Programming in the large]] Lectures: 9,10,11
+	- [[Elements of Programming Languages/Imperative Programming]]
+	- [[Elements of Programming Languages/Course Review]]
+	-
+-
+- Tutorials:
+	- [[Practical Foundations for Programming Languages/Tutorial 1]]
+	- [[Practical Foundations for Programming Languages/Tutorial 2]]
+	- [[Practical Foundations for Programming Languages/Tutorial 3]]
+	-

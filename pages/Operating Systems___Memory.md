@@ -1,0 +1,144 @@
+- ![07a-MEM-physical.pdf](../assets/07a-MEM-physical(1)_1708798408349_0.pdf)
+- ![07b-MEM-alloc.pdf](../assets/07b-MEM-alloc(1)_1708798414889_0.pdf)
+- Reading:
+	- ((662911af-6f56-41b9-88e1-b335683b8bcd))
+	- ((662911c9-1dc6-4746-acb6-2c4f57b63297))
+	- ((66291135-65e6-4792-ac50-f318db335caf))
+-
+- ![08a-PAGING-alloc.pdf](../assets/08a-PAGING-alloc_1713793430735_0.pdf)
+- ![08b-PAGING-paging.pdf](../assets/08b-PAGING-paging_1713793439973_0.pdf)
+- Reading:
+	- ((66291204-3f8e-45f8-9c95-160b3669cb35))
+	- ((66291218-d12c-48ce-9850-4867ba653ec5))
+	- ((6629122f-d587-490a-8881-1e1e85de089a))
+	-
+- ![09a-VIRTMEM-virtmem.pdf](../assets/09a-VIRTMEM-virtmem_1713793452954_0.pdf)
+- ![09b-VIRTMEM-agos.pdf](../assets/09b-VIRTMEM-agos_1713793588005_0.pdf)
+- ![09c-VIRTMEM-WS.pdf](../assets/09c-VIRTMEM-WS_1713793597982_0.pdf)
+- Reading:
+	- ((6629139f-e80a-4c26-82b6-26142ceffc15))
+-
+- # Physical
+	- ## Background
+		- ### Address Binding
+			- ((6629195e-f5d0-48af-88aa-083ca9fb8ade))
+			- Usually a program resides on a disk as a binary execution file
+			- Virtual (logical) Address
+				- range(0,max)
+				-
+			- Physical Address
+				- range(R+0,R+max)
+			- User never accesses the real physical address
+			- This concept is central to memory management
+		- ## Dynamic Loading
+			- Allows for programs to exceed the size of the physical memory's size
+			- This is done by not loading routines until they are called
+			- ### Use
+				- Only loads needed code
+				- Very useful for error handling
+					- not called often
+					- can be quite large
+			- ### Dynamically linked libraries
+				- Linkning is postponed till execution time
+				- Saves space
+				- Libraries shared across multiple processes
+	- ## Memory Alloc
+		- ## Schemas
+			- First-fit
+				- Allocate *first* hole that is big enough
+				- Stop search as soon as we find a free hole
+				- Suffers from fragmentation
+			- Best fit
+				- Allocate the smallest hole that is big enough
+				- Search entire list (unless pre-ordered)
+				- Produces smallest leftover hole
+				- Suffers from fragmentation
+			- Worst fit
+				- Allocate the largest hole
+				- Search entire list (unless pre-ordered)
+				- Produces largest leftover hole
+				- Like the name, worst scheme for time and storage
+	- ## Dealing with Fragmentation
+		- As processes are loaded and removed, storage space becomes swiss cheese
+		- 50% rule
+			- 1/3 of memory is unusable!
+		- ### Split Aproach
+			- Break memory into fixed size blocks and allocate blocks based on size
+			- Now only suffers from internal fragmentation
+		- ### Compaction
+			- Shuffle memory contents so all free memory is together
+			- Can be expensive
+		- ### Paging
+			- Coming soon..
+	- ## Swapping
+		- Standard swapping involves moving an entire process between main memory and a backing store
+		- ((662a7870-5b17-4a31-8480-20a4f2eb10c2))
+-
+- # Paging
+	- ## Basic
+		- ### What
+			- Memory management scheme
+			- Permits a process's physical address space to be non-contiguous
+			- Used everywhere
+		- ### How
+			- Breaks memory into fixed size blocks called frames
+			- Breaks virtual memory into blocks called pages
+			- Addresses are seperated into page nº (p) and offset (d)
+			  ((662a7fbd-0905-4843-a092-45a0321219ea))
+		- ### Why
+			- Program views memory as contiguous
+			- Safety
+	- ## Translation Look-aside Buffer (TLB)
+		- ### Problem
+			- If page table is in main memory it is very slow to access data
+				- ((662a81cb-3da2-44a6-87cd-54ca43f34f04)) lookups are needed
+		- ### What
+			- TLB is a fast lookup hardware cache
+			- Part of instruction pipeline
+		- ### TLB miss
+			- Use "basic process"
+			- Add entry to table
+				- If full replace a current entry
+				- Through least recently used or other schema
+		- Some TLB addresses are hard coded (e.g. kernel code)
+		- ### Address-Space Identifier (ASIDS)
+			- Identifies process
+			- Provides protection
+			- Without it, TLB must be flushed with each use
+		- ### Metrics
+			- Let:
+				- hit-ratio = $r$
+				- TLB access time = $t_b$
+				- *actual* memory access time = $t_m$
+			- *effective* memory-access time = $r \times t_b \; + \;(1-r)  \times t_m$
+	- ## Protection bits
+		- ### Standard
+			- read-write vs read
+			- executable vs non
+		- ### Valid Invalid
+			- Protects against ilegal access to data
+		- Page Table Register
+			- Verifies address is in valid range
+	- ## Shared Pages
+		- ((662aa6b6-7a97-4638-a24b-9d415910aa6e))
+		- ### Reentrant code
+			- Code that cannot be modified
+			- Enforced by OS
+			- e.g. C libraries
+		- ### Other uses
+			- Inter Process Communication
+			- Shared Memory
+	- ## Page Table Structures
+		- ### 2-level paging algo
+			- ((662bc159-1975-4658-ab52-6841ad8167a3))
+		- ### 3+ level paging
+			- ((662bc2b8-7ffa-46ab-80ce-855998a0562c))
+			- Requires too many memory accesses
+		- ### Hashed
+			- Hash table to linked lists
+			- ((662bc3b3-42c8-4305-9dde-97009de4bf59))
+		- ### Inverted
+			- Uses (PID,d)
+			- Implemented in Hash Tables for Speed
+			- Does not work for shared memory as PID is used
+			-

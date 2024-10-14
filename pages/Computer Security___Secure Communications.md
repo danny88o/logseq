@@ -1,0 +1,38 @@
+# Public Key Infrastructure
+- ![L13_PKI.pdf](../assets/L13_PKI_1698009856275_0.pdf)
+- ![prudent.pdf](../assets/prudent_1698009998337_0.pdf)
+- ## Establishing Public Keys
+	- ### The Problem:
+		- How to establish public keys
+		- i.e. how to establish a key between identity (domain) and public key
+	- ### Potential Solutions
+		- Public announcements - *Broadcast public key*
+			- Does not solve authentication problem
+			- Anyone could boradcast
+		- Publicly available directories - *Publish their public key on public directories*
+			- Same issue
+			- Anyone can claim they are some identity
+		- Public-key authorities - *Have someone we already trust*
+			- Have to contact authority for every public key need
+		- Public key certificates -
+			- As reliable as pc-authorities
+			- Removes bottleneck problem
+- ## Public Key Certificates
+	- ### X.509
+		- Standard Framework
+		- ((6535a1ba-ea22-418e-ad22-f0ab229ac3c7))
+	- ### Chain of Trust
+	  *The power of friendship*
+		- Having one CA signing all certs not practical
+		- Root Cert $\implies$ Level 1 Cert $\implies$ Level 2 cert
+		- This provides the necessary structure for all cert signing
+	- ### Self-Signed Certs
+		- UoE used be its own certifying authority
+		- Issued by the server you are attempting to connect to
+		- Not in root or in chain to root
+		- Very-rare nowadays
+- ## Scandals
+	- ### Lenovo Superfish Scandal
+- # Something
+- # TLS
+	- ##

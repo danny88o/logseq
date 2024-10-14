@@ -1,0 +1,30 @@
+- https://mclarenapplied.com/products/atlas-advanced-telemetry-linked-acquisition-system
+-
+- Currently trying to bring atlas into lower levels F4 etc
+	- Including into every-day people trying to get into motorsport
+- Diversifying into sensors
+- Electrification and Hybridisation
+-
+- He wants FS to consider the entire enviromental impact of the car
+-
+- ALternators for gp auto in japan
+	- from nothing, shipped 50 high voltage alternators in a few weeks
+- Very specialized, very quick
+- Ability to test in-house
+- UK has a systematic electricity issue, UK needs to work out how to change its charging infrastructure to meet the potential demand of EV
+-
+- Typical day at mclaren
+	- In office 2-3 times a week
+	- Testing essential to process
+- Company tries to drive innovation
+- Communicate efficiently - Powerpoint!
+- 300-350 emloyes
+- Quality teams not big teams
+- How educate engineers
+	- Continual career development
+	- Courses - loads!
+	- Lunch and Learn
+	- Help learning journey to team-lead
+-
+- What are the potential teams someone on the software side of things could join?
+	-

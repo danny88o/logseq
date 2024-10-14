@@ -1,0 +1,12 @@
+- [Links PL](https://links-lang.org/)
+- [Koka](https://github.com/koka-lang/koka)
+- [Multicore OCaml](https://github.com/ocaml-multicore/ocaml-multicore)
+- [Haskell Fused](https://github.com/fused-effects/fused-effects)
+- [UNIX in 50 lines of code or less](https://www.dhil.net/research/talks/plug_slides2020_12-complete.links)
+- [Doo bee doo bee doo](https://doi.org/10.1017/S0956796820000039)
+- [Links: Web Programming Without Tiers](https://links-lang.org/papers/links-fmco06.pdf)
+- An Introduction to Algebraic Effects and Handlers
+- Liberating effects with rows and handlers TyDe 2016
+- Handlers in action. ICFP 2013
+- [Maciej Piróg. C++ Effects library](https://github.com/maciejpirog/cpp-effects)
+-

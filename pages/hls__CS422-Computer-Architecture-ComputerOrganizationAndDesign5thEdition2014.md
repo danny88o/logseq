@@ -1,0 +1,171 @@
+file:: [CS422-Computer-Architecture-ComputerOrganizationAndDesign5thEdition2014.pdf](../assets/CS422-Computer-Architecture-ComputerOrganizationAndDesign5thEdition2014.pdf)
+file-path:: ../assets/CS422-Computer-Architecture-ComputerOrganizationAndDesign5thEdition2014.pdf
+
+- Signed and Unsigned Numbers
+  ls-type:: annotation
+  hl-page:: 96
+  hl-color:: purple
+  id:: 639a18f8-0543-4826-a61f-75bbb7c580a6
+  hl-stamp:: 1671446652118
+- [:span]
+  ls-type:: annotation
+  hl-page:: 97
+  hl-color:: blue
+  id:: 639a1af9-81ba-4397-8c51-7c6a08b57760
+  hl-type:: area
+  hl-stamp:: 1671043827104
+- [:span]
+  ls-type:: annotation
+  hl-page:: 97
+  hl-color:: blue
+  id:: 639a1b1b-92f7-4014-9f50-faf9eb81e8a4
+  hl-type:: area
+  hl-stamp:: 1671043861607
+- [:span]
+  ls-type:: annotation
+  hl-page:: 97
+  hl-color:: blue
+  id:: 63a04115-384e-4c4f-a464-2c57063515d8
+  hl-type:: area
+  hl-stamp:: 1671446802823
+- [:span]
+  ls-type:: annotation
+  hl-page:: 98
+  hl-color:: blue
+  id:: 63a0416b-1350-42fe-98eb-e74c13cc0a31
+  hl-type:: area
+  hl-stamp:: 1671446889882
+- sign and magnitude
+  ls-type:: annotation
+  hl-page:: 98
+  hl-color:: green
+  id:: 63a0435d-b7e7-4fdc-b200-a8203da747fe
+- two’s complement
+  ls-type:: annotation
+  hl-page:: 98
+  hl-color:: green
+  id:: 63a04737-5161-4f9a-9080-dec85734e6ca
+- [:span]
+  ls-type:: annotation
+  hl-page:: 98
+  hl-color:: blue
+  id:: 63a04792-0e71-4f15-a47f-2c51fcf6ba68
+  hl-type:: area
+  hl-stamp:: 1671448464837
+- Negation Shortcut
+  ls-type:: annotation
+  hl-page:: 100
+  hl-color:: green
+  id:: 63a04913-21d5-4e54-9109-0c1e1701cff8
+- Sign Extension Shortcut
+  ls-type:: annotation
+  hl-page:: 101
+  hl-color:: green
+  id:: 63a049b6-a67e-49e4-a390-e2891877efe9
+- Arithmetic for Computers
+  ls-type:: annotation
+  hl-page:: 199
+  hl-color:: purple
+  id:: 63a04a53-fb49-40b1-935d-4b9604877abc
+- Addition and Subtraction
+  ls-type:: annotation
+  hl-page:: 201
+  hl-color:: purple
+  id:: 63a04aac-4039-4385-ab51-2fffeb87a0b5
+- [:span]
+  ls-type:: annotation
+  hl-page:: 202
+  hl-color:: blue
+  id:: 63a05048-1e15-4e9c-8ad1-68203fe763ee
+  hl-type:: area
+  hl-stamp:: 1671450693796
+- [:span]
+  ls-type:: annotation
+  hl-page:: 201
+  hl-color:: blue
+  id:: 63a05076-7291-41ba-9d85-87ed8b51c72c
+  hl-type:: area
+  hl-stamp:: 1671450741209
+- [:span]
+  ls-type:: annotation
+  hl-page:: 203
+  hl-color:: blue
+  id:: 63a05865-4bbd-4f2a-98d8-fe4eb59a135a
+  hl-type:: area
+  hl-stamp:: 1671452770252
+- Floating Point
+  ls-type:: annotation
+  hl-page:: 219
+  hl-color:: purple
+  id:: 63a0657b-54e6-4e20-8fe2-0d02f2257049
+- [:span]
+  ls-type:: annotation
+  hl-page:: 220
+  hl-color:: blue
+  id:: 63a0e3b6-c025-4678-afae-5b0e3c689351
+  hl-type:: area
+  hl-stamp:: 1671488436040
+- [:span]
+  ls-type:: annotation
+  hl-page:: 220
+  hl-color:: blue
+  id:: 63a0e409-18a7-48e0-ba99-599b1eb65b8b
+  hl-type:: area
+  hl-stamp:: 1671488515658
+- [:span]
+  ls-type:: annotation
+  hl-page:: 222
+  hl-color:: blue
+  id:: 63a0e427-0c8f-4251-addc-0339acde2c64
+  hl-type:: area
+  hl-stamp:: 1671488550231
+- [:span]
+  ls-type:: annotation
+  hl-page:: 224
+  hl-color:: blue
+  id:: 63a0e435-5520-4487-ad5a-b5365857ee93
+  hl-type:: area
+  hl-stamp:: 1671488563860
+- Exceptions
+  ls-type:: annotation
+  hl-page:: 348
+  hl-color:: purple
+  id:: 63a22e4f-5092-45cf-a772-994f6bd75302
+- exceptions and interrupts
+  ls-type:: annotation
+  hl-page:: 349
+  hl-color:: blue
+  id:: 63a22f8c-9850-4eb8-8102-6b21b0cdc794
+- [:span]
+  ls-type:: annotation
+  hl-page:: 350
+  hl-color:: blue
+  id:: 63a23089-3d26-4812-a16d-3802ede7ad22
+  hl-type:: area
+  hl-stamp:: 1671573639862
+- exception program counter
+  ls-type:: annotation
+  hl-page:: 349
+  hl-color:: blue
+  id:: 63a230ff-90d2-4221-a745-c420b83e874b
+  hl-stamp:: 1671573763310
+- Virtual Memory
+  ls-type:: annotation
+  hl-page:: 450
+  hl-color:: blue
+  id:: 63a23d8d-8734-4f03-86ea-3d806ecf133c
+  hl-stamp:: 1671576975475
+- [:span]
+  ls-type:: annotation
+  hl-page:: 461
+  hl-color:: purple
+  id:: 63a2543a-2f10-43f5-ac3e-1fc6023843f7
+  hl-type:: area
+  hl-stamp:: 1671582776144
+- [:span]
+  ls-type:: annotation
+  hl-page:: 349
+  hl-color:: blue
+  id:: 63b6d11a-3785-4175-9901-fdf0a479d76d
+  hl-type:: area
+  hl-stamp:: 1672925461914

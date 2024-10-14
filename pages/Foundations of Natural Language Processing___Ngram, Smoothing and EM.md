@@ -1,0 +1,5 @@
+- ![fnlp05slides.pdf](../assets/fnlp05slides_1706014830939_0.pdf) J&M3 3 Intro
+- ![fnlp06slides.pdf](../assets/fnlp06slides_1706014868987_0.pdf) J&M3 3.2, 3.5-3.9
+- ![fnlp07slides.pdf](../assets/fnlp07slides_1706978225155_0.pdf) J&M2: 3.5-3.9
+- ![fnlp08slides.pdf](../assets/fnlp08slides_1706978232854_0.pdf) J&M2: 5.9-5.10
+-

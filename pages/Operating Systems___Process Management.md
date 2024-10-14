@@ -1,0 +1,321 @@
+- ![04a-PROCESS-proc.pdf](../assets/04a-PROCESS-proc_1706481627739_0.pdf) Ch: 3.1, 3.2, 3.3
+- ![04b-PROCESS-IPC.pdf](../assets/04b-PROCESS-IPC_1706481632951_0.pdf) Ch: 3.4-3.8 Ex: 3.7.2,3.7.3,3.8.2.1
+- ![05a-THREAD-thread.pdf](../assets/05a-THREAD-thread(1)_1708791138947_0.pdf) Ch: 4.1, 4.2
+- ![05b-THREAD-USR_KRN.pdf](../assets/05b-THREAD-USR_KRN(1)_1708791145582_0.pdf) Ch: 4.3, 4.4.1 4.5.(1-3), 4.6.(1-4), 4.7.2
+- ![06a-SCHED-sched.pdf](../assets/06a-SCHED-sched(1)_1708798382974_0.pdf) Ch: 5.1, 5.2
+- ![06b-SCHED-algs.pdf](../assets/06b-SCHED-algs(1)_1708798389229_0.pdf) Ch: 5.3, 5.4, 5.5, 5.7.1, 5.8
+-
+- # Process
+	- *The OS's abstraction for execution*
+	- ## Concept
+		- Program - list of instructions
+		- Program becomes a process when an executable file is loaded into memory
+		- ### Process State
+			- States:
+				- New
+				- Ready: waiting to be assigned to CPU
+				- Running: executing on CPU
+				- Waiting:
+				- Terminated
+			- Transitions:
+			  ((65b6df25-33ae-45cb-996a-d6e181e6b635))
+		- ### PCB (Process Control Block)
+			- OS saves a process' execution state in a PCB when it is not running
+			- Contains:
+				- Process ID (PID)
+				- State
+				- PC (Program Counter)
+				- CPU registers
+				- CPU scheduling
+				- Memory-management info
+				- Accounting
+				- I/O
+			- Process state is spread between PCB and hardware when running
+		- ### Threads
+			- Single-thread allows only one task at a time
+			- Most modern OS are multythreaded
+			- On multicore systems processes can happen at the same time
+	- ## Scheduling
+		- ### Process Scheduler
+			- Maximize CPU utilisation
+			- Selects selects an available process
+			- Executes it on a core
+			- Runs in parallel on multicore
+		- ### Scheduling Queues
+			- Once a process is in ready state, it is put into ready queue
+			- It executes untill
+				- termination
+				- interruption
+				- waits for an event (e.g. IO)
+			- If a process is waiting it is put in waiting queue
+		- ### CPU Scheduling
+			-
+		- ### Context Switch
+			- When an interrupt occurs, system save the current context
+			- *State Save* of the current state of the CPU core
+			- *State Restore* of a different process
+			-
+	- ## Operations
+		- *The mechanisms involved in creating processes*
+		- ### Proceception
+			- A parent process can spawn a child process
+			- 1 of 2 things then occurs:
+				- Parent executes concurrently with its children
+				  logseq.order-list-type:: number
+				- Parent waits until some/all of its children terminate
+				  logseq.order-list-type:: number
+			- There are also 2 possibilities for the address-space
+				- Child is duplicate of parent
+				  logseq.order-list-type:: number
+				- Child has a new program loaded into it
+				  logseq.order-list-type:: number
+		- ### Termination
+			- A Parent might execute their child for many reasons (don't i know it!):
+				- Child has exceeded its usage
+				- Task assigned to child is no longer required
+				- Parent is terminating, OS doesn't allow child to continue to exists
+			-
+- # IPC (Inter Process Communication)
+	- ## Intro
+		- Independent Process: Does not share data with any other process
+		- Cooperating Process: Can affect or be affected by other executing process
+		- ### Why Important?
+			- Information Sharing
+			- Computation Speedup
+			- Modularity
+	- ## Shared Memory Systems
+		-
+	- ## Message-Passing Systems
+		- ### Direct Communication
+			- How:
+				- ((65b81567-476f-4baf-8d93-29e418b91d03))
+				- ((65b8156f-8816-4d2f-8cba-97f44b3d79de))
+			- If asymmetrical communication:
+				- ((65b819fe-2129-4bdc-80d6-af95787c353c))
+			- Properties:
+				- Link is established Automatically
+				- Link is associated with exactly 2 processes
+				- There is exactly one link between the 2 processes
+		- ### Indirect Communication (Ports/mailbox)
+			- How:
+				- ((65b81b6d-16e1-4e5a-a394-4fbe9b6ddb17))
+				- ((65b81a4b-5d2f-4f11-9eec-4628c608c58e))
+			- Properties:
+				- Link is established between pairs
+				- Link is associated with >= 2 processes
+				- Each link is associated with one mailbox
+			- What if multiple processes use receive?
+				- Make link be active with at most 2 processes
+				- Only allow 1 process ata time to use receive
+				- Allow systems to arbitrrily accept, e.g. round robin
+			- Mailboxes
+				- Owned by OS or another process
+				- OS must allow processes to:
+					- Create new mailboxes
+					- Send and receive messages through the mailbox
+					- Delete mailboxes
+			- ###
+	- ## Client-Server Systems
+	- ## Examples
+-
+- # Threads
+	- ## Overview
+		- Basic unit of CPU utilization
+		- Threads of the same process belong share
+			- Code
+			- Data
+			- Open files
+			- Signals
+		- Have their own:
+			- Register
+			- Stack
+			- PC
+		- ### Example uses:
+			- Web Browser:
+				- Text
+				- Images
+				- Retreive data from network
+			- Web server:
+				- Create seperate thread for each request
+				- Listens for next connection
+				- ((66267e0c-1266-4f5d-860d-f303bd96ee15))
+	-
+	- ## Benefits
+		- ### Responsivenes
+		- ### Resource Sharing
+		- ### Economy
+		- ### Scalability
+	-
+	- ## Multicore Programming
+		- The same way single-CPU systems evolved into multi-CPU systems
+		- multi-core CPUs evolved from single-core CPUs
+		- ### Singlecore multithreading
+			- Execution of threads will be interleaved
+			- CPU quickly switches between these threads
+			- Achieves **Concurrency**
+			- ((66268209-1edd-493f-994e-48dadcaa86d3))
+		- ### Multicore with multithreading
+			- Separate thread in each core
+			- Achieves **Parallelism**
+			- ((66268289-a249-4f56-b0ce-c9ee984bc7d2))
+		- ### How to Program
+			- Indentify Task - Can it be parallelized?
+			  logseq.order-list-type:: number
+			- Balance - Are the tasks are of similar work and value?
+			  logseq.order-list-type:: number
+			- Data - Is there dependencies on other programs? Can it be divided?
+			  logseq.order-list-type:: number
+			- Debugging - Are all posible execution paths safe?
+			  logseq.order-list-type:: number
+		- ### Parallelism
+			- ((662686fa-3ec4-4473-b969-fa66cdfe1be3))
+			- Data Parallelism:
+				- Manipulate the data on seperate cores
+				- e.g. summation - 2 threads each do half a list
+			- Task parallelism:
+				- Each read data on 2 separate cores
+				- e.g. one calculates mean, other calculates mode
+			- They are not mutually exclusive!
+			-
+			-
+		- ### Amdahl's Law
+			- $speedup \leq \frac{1}{S + \frac{(1-S)}{N}}$
+			- where $N$ is the number of cores,
+			- where $S$ is the portion of application that must be performed serially
+			- As $N$ approaches infinity, converges to $\frac{1}{S}$
+			- ((662685f7-bea2-4801-89b8-64bf32c79a4d))
+		-
+	- ## Multithreading Models
+		- ### Many to One
+			- Maps each thread to 1 kernel thread
+			- Thread Management is done entirely in user space (efficient)
+			- Entire process will block if one thread makes a blocking system call
+			- Does not take advantage of multicores
+		- ### One to One
+			- Maps each thread to a kernel thread
+			- More concurrency
+			- Allows parallelism
+			- Large number of kernel threads can reduce performance
+		- ### Many to Many
+			- User threads $\geq$ Kernel Threads
+			- Theoretically takes the best of both worlds
+			- Has the parallelism of one-to-one
+			- Has no limit on threads like many-to-one
+			- **Difficult to implement** - Linux and Windows use one-to-one
+-
+- # Threading in Practice
+	- ## Pthreads
+		- POSIX standard (IEEE 1003.1c)
+		- Implemented by Linux and macOS
+		- Is a specification each OS implements it differently
+	- ## Implicit Threading
+		- Instead of identifying *threads* categorize *tasks*
+		- ### Thread Pools - *using web-server as an example*
+			- Process:
+				- Creates a number of threads at start-up places them in a "pool"
+				- When a server receives a request it queries the pool
+				- If a thread is available, it is assigned to a task
+				- If not, the task is queued
+				- Once a thread completes its service it returns to the pool
+			- Benefits:
+				- Servicing a request with an existing thread is faster
+				- Limits the number of threads for safety
+			- Disadvantages:
+				- Only works for Asynchronous
+		- ### Fork Join
+			- Process:
+				- Parent thread creates child threads
+				  logseq.order-list-type:: number
+				- Waits for threads to complete
+				  logseq.order-list-type:: number
+				- Joins with them
+				  logseq.order-list-type:: number
+			- Can be thought of a synchronous name of the Pool model
+		- ### OpenMP
+			- Process:
+				- Identify *parallel regions* - blocks of codes that run in parallel
+				  logseq.order-list-type:: number
+				- Programmer adds 
+				  logseq.order-list-type:: number
+				  ```apl
+				  #pragma omp parallel
+				  ```
+				   in various parts of code
+				- When OpenMP encounters this it creates as many threads as possible
+				  logseq.order-list-type:: number
+	- ## Issues
+		- ### fork()
+			- If one thread calls fork() what should the new process do?
+				- Duplicate all threads
+				  logseq.order-list-type:: number
+				- Duplicate only the thread
+				  logseq.order-list-type:: number
+			- Some UNIX systems have 2 versions of fork, one for each
+		- ### Signal Handling
+			- If a process has multiple threads where is the signal sent?
+				- To thread where signal applies
+				  logseq.order-list-type:: number
+				- Every thread
+				  logseq.order-list-type:: number
+				- Certian threads
+				  logseq.order-list-type:: number
+				- A specific thread that receives all signals
+				  logseq.order-list-type:: number
+		- ### Thread Cancellation
+			- How do you terminate a thread before it is completed?
+				- Immediately terminate
+				  logseq.order-list-type:: number
+				- Defferred 
+				  logseq.order-list-type:: number
+		- ### Thread-Local Storage (TLS)
+			- Allows threads for their own copy of data locally
+	- ## Linux Threads
+		- Linux does not differentiate between processes or threads it uses the term *task*
+		- clone() can be invoked with certain flags specifying what info is shared
+		- ((6626ac97-4fb5-4783-b8a4-2959dd971539))
+		-
+- # Scheduling
+	- ## Intro
+		- ### Decisions
+			- Must be made when a process:
+				- Switches to waiting state
+				  logseq.order-list-type:: number
+				- Terminates
+				  logseq.order-list-type:: number
+				- Switches from running to ready (e.g. interrupt)
+				  logseq.order-list-type:: number
+				- Switches from waiting to ready
+				  logseq.order-list-type:: number
+			- 1 and 2 are *nonpreemptive*
+			- 3 and 4 are *preemptive*
+		- Preemptive  kernels require mechanisms such as mutex locks to prevent race conditions
+		- ### Dispatcher
+			- ((6626b30b-11b8-4057-b7f2-fdd1765a901b))
+	- ## Scheduling Criteria
+		- Factors:
+			- Maximise CPU utilisation
+			- Maximise Throughput = $\frac{completed}{time}$
+			- Minimize Waiting time = ready queue
+			- Minimise Turnaround time = Waiting Time + cpu execution + doing I/O
+			- Minimise Response time = time from submission of request to first response
+		- Usually optimize average
+		- Sometimes max/min
+		- With interactive systems, minimize variance in response time
+	- ## Algorithms - Singleprocess
+		- ### First-Come, First-Serve (FCFS)
+			- FIFO ready queue
+			- Very easy to implement
+			- Pretty awful average wait time
+		- ### Shortest-Job-First  (SJF)
+		- ### Round Robin
+		- ### Priority Scheduling
+		- ### Multilevel Feedback Queue
+		-
+	- ## Multicore Algorithms
+	- ## Thread Scheduling
+		- ### Contention Scheduling
+			-
+	- ## Implementation
+		- ### Linux
+		- ### Evaluation
+-

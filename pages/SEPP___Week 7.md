@@ -1,0 +1,74 @@
+- ![lecture18_VVT1.pdf](../assets/lecture18_VVT1_1678371659209_0.pdf)
+- ![lecture19_VVT2(1).pdf](../assets/lecture19_VVT2(1)_1678803134298_0.pdf)
+-
+- # Verification Validation and Testing
+	- What is a bug?
+		- Mistake: An action that produces a fault
+		- Fault: An incorrect step, process or data definition
+		- Error: Difference between a computed value and the corrrect one
+		- Failure: Software or whole system failing to deliver an entire service
+-
+- ## Aproaches to testing:
+	- ### Black box:
+		- Act as if there is no knowledge of the internal structure
+		- Tests dont need to be changed, "higher level test"
+		- May not throughly exercise the different ways/path code is executed
+	- ### White Box
+		- Considers the internal structure
+		- Helps developers check their work
+		- If requirements are misinterpreted, refactoring will require updates
+	- ### Regression testing
+		- Repeat all tests
+- ## Kinds of test
+- ((6409efb7-a3de-425c-a255-bdde712dffcf))
+- ## How to test
+	- Tests should be:
+		- Repetable (no random factors)
+		- Documented
+		- Precise
+		- Done on controlled software
+- ## Test-first development
+	- Write tests as informed by and encapsulating requirements
+	- Run tests as code is written
+	- Also clarifies requirements
+	- Avoids poor ambiguity resolution - no cutting corners
+	- Time for test writing built in at it's core
+- ## Test-driven development
+	- Like test-driven, but tests $\textbf{completely replaces}$ requirements
+- ## Behaviour driven
+	- More interpretable to stakeholder than normal tests
+	- Still not completely interpretable, may loose sight of higher level needs
+-
+- # Testing in practice
+- ## Testing automation with JUnit
+	- _Used for use cases_
+	- uses in a test class $$@test$$
+	- makes use of ((6410837c-acbb-48ab-8653-3c62c334a39d)) methods, usually only one per tests
+	- You can use annotations
+		- Add name
+		- Disable test
+		- Add tag and then run only certain tags
+	- Other ((641081e6-04c5-49f0-827e-8b5cae966bad)) to prepare and clean envitoment
+- ## Inline assertions
+	- _Used for sanity checks_
+	- Usually at start or end of a function
+	- Can be switched on and off! Very Cool!
+		- Remember to do it though, can be very unprofessional if error appears in production
+	- ### Alternatives
+		- ((641084c6-534a-4a2d-8b57-d0b370ba7ab7))
+			- Carries faults across
+			- Mejor prevenir faults que curar faults
+			- Better to have input validations class
+		- ((6410850f-d3d2-46fb-b3da-609218bd8a45))
+			- Program fails gracefully
+			- Useful to catch faults
+- ## Test Coverge
+	- ((641086b4-19fc-4afa-b5ee-18297b19189e))
+	- ### Statement Coverage
+	  $$\frac{\text{Lines of code executed by at least one test}}{\text{Lines of code}}$$
+	- ### Branch Coverage
+	  $$\frac{\text{Nº of branches executed by test}} {\text{Nº of branches}}$$
+	-
+	- $$\text{100\%  branch coverage} \implies \text{100\% statement coverage}$$
+		- ### IntelliJ coverage tools
+	-

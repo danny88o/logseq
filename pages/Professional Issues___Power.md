@@ -1,0 +1,17 @@
+- The ability to enact your will
+- Not a trait
+- System design distributes power, intentionally and unintentionally
+-
+- ## Traits of power
+	- Not always explicit
+	- Not always intentional
+		- no need to be vindictive to cause harm
+		- privilege
+	- Multi-dimensional
+		- power tends to correlate
+-
+- ## Relating to Tech
+	- Amplifies
+	- Entrenches
+		- Think how compass system entrenched the racial bias into the system
+	- Creates

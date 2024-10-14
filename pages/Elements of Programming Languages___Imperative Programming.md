@@ -1,0 +1,130 @@
+- ![lec12.pdf](../assets/lec12_1699279990848_0.pdf) CPL: 4.4,5.1,8.1
+- ![lec13.pdf](../assets/lec13_1699884962138_0.pdf) CPL: 6.1-6.2
+- ![lec14.pdf](../assets/lec14_1700144193611_0.pdf) CPL: 7.3, 8.4
+- ![lec15.pdf](../assets/lec15_1700489564584_0.pdf)
+- ![lec16.pdf](../assets/lec16_1700748954238_0.pdf)
+-
+- # Imperative Programming
+	- ## Mutability
+		- ### Immutability
+			- Referential Transparency
+			- Easier to reason and optimizr
+			- Types "mean" more
+	- ## While-programs
+		- ### Statements
+			- ((6548f595-d0d5-4164-9c15-030c7981762b))
+			- *skip* does nothing
+			- Use {} to parenthesize statements
+		- ### Factorial Example
+			- ((6548f623-a04d-442e-87e8-2e3a0ff00f25))
+			- ((6548f642-c133-4098-8b93-f7bc78f5979d))
+	- ### $L_{While}$
+		- ((6548fb46-b5f6-41bd-9a4f-a1d1cc715c5c))
+	- ## Other Control flow Structures
+		- ### for
+			- ((6548fa1d-76da-4947-8ba9-10a3dbc06e1a))
+			- forEach loop is very similar
+		- ### Procedures
+			- Currently unrealistic, no functions!
+			- Later will combine $L_{While}$ and $L_{Rec}$
+	- ## Unstructured Control (non-examinable)
+	  background-color:: red
+		- ### *goto* Considered Harmful
+			- Dijkstra listed many disadvantages of GoTo in a letter to CACM
+			- Control flow is very difficult to decipher
+			- Labels could be in different scope/procedure
+		- ### *goto* Caveats
+			- In most modern languages, safe to use but only if very good reason
+				- High performance code
+				- Jump out of a nested loop e.g if 0 is multiplying leave
+			- Safe use within same procedure/scope
+		- ### *goto* fail
+			- ((6548fdb0-a9d1-4e4b-a2cb-1cb7776b6213))
+			- Apple SSL was compromised!
+		- ### *switch* statements
+		-
+-
+- # Small-step Evaluation
+	- ## Semantics
+		- e -> e'
+		- If e_{0} -> ... -> e_{n} it can be written as:
+		   e_{0} ->* e_{n}
+		- ((65522ff1-2c0c-471b-82da-90c8447bba0b))
+		- ### L_{Arith} 
+		  ((6552306a-8321-446f-86a0-52eb6aa1fa87))
+		- ### L_{if}
+		  ((655230de-41d0-4d80-9290-d96fa91bc7ef))
+		- L_{Let}
+		  ((65523185-9f3c-484d-af69-f1ada7a0b84c))
+	- ## Judgments
+		- *A relation among one or more abstract syntax trees*
+		- ### Rule Meanings
+			- Axiom: 
+			  $$\frac{ }{Q}$$
+			- Conditional Judgment:
+			  $$\frac{P_1 \; ... \; P_n }{Q}$$
+		- ### Rule Induction
+			- ((655235f9-bc6c-4148-a32d-9c28d5cfa2fe))
+	- ## Type Soundness
+		- ### Value Soundness
+		  If $⊢e : τ$ and  $e →* v$ then  $⊢ v : τ .$
+-
+- # References, Arrays, and Resources
+	- ## References
+		- TODO Was complicated had to pay attention
+-
+- # Evaluation Strategies and Laziness
+	- Some aspects of small-step evaluation seem arbitrary
+	- e.g. Left -> Rigth vs Right -> Left evaluation order
+	- ## Call by Value (eager/strict evaluation)
+		- Evaluates argument *then* binds to variables
+		- Is the default in most languages
+		- ### Advantages
+			- Evaluates everey $e$ at most once
+			- Predicatable Performance
+			- Predictable Side-effects
+		- ### Disadvanteges
+			- Might evaluate values that are not needed
+	- ## Call by Name
+		- Substitute expression *then* evaluate
+		- Removes unnecessary evaluations
+		- Example:
+		  ((655b6bec-65e0-4d44-a454-d0d33ac149ec))
+		- However argument is computed twice!
+		- Might not be as intuative
+		- ### CbN Scla
+			- Write => infront of type
+			- ((655b6d38-23df-406a-a4b8-9d284cb524c1))
+		- ### Simulating CbN
+			- TODO
+		- ### Advantages
+			- Can be fast if $e$ not needed
+			- Can avoid infinite loops
+			- Performance hard to claclulate, requires deep analysis
+			- Side effects unpredictable
+	- ## Call by Need (Lazy evaluation)
+		- Evaluate expression when needed *then* save the result
+		- Uses memoization
+		- Rules:
+		  ((655b72b0-156c-4b37-b8a9-624939a9fa26))
+		- ### Pure functional programming:
+			- Adopt lazy evaluation, forbid any side-effects
+			- Easier to optimize/parallelize so can be faster
+			- memoization has overhead
+			- I/O, exception is difficult
+- # Exception and Control Abstractions
+	- ## Exceptions
+		- ### try-catch
+			- If an exception is raised, transfer control to the corresponding handler
+		- ### finally
+			- Runs regardless of what is thrown
+		- ### throws
+			- Unhandled exceptions are thrown
+			- THese exceptions need to be declared, if not a typing error occurs
+			-
+	- ## Tail Recursion
+		- Function is a *tail call* if it is the last action of the calling function
+		- If every function call is a *tail calll* in a recursive function its is *tail recursive*
+	- ## Continuations [non-examinable]
+		-
+	-

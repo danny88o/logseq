@@ -1,0 +1,50 @@
+file:: [lecture7_design_architectural_design_1675347725270_0.pdf](../assets/lecture7_design_architectural_design_1675347725270_0.pdf)
+file-path:: ../assets/lecture7_design_architectural_design_1675347725270_0.pdf
+
+- ”An architecture is the fundamental organisation of a software system embodied in its components, their relationships to each other and to the environment, and the principles guiding its design and evolution” (IEEE)
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: blue
+  id:: 63dbc7bf-6db5-48b5-afe6-bdb8129dabf6
+- [:span]
+  ls-type:: annotation
+  hl-page:: 20
+  hl-color:: blue
+  id:: 63dbcee8-f9bd-4e97-9f89-b5ab581841a1
+  hl-type:: area
+  hl-stamp:: 1675349735019
+- [:span]
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: blue
+  id:: 63dbcef9-6b89-44db-9175-369f82447993
+  hl-type:: area
+  hl-stamp:: 1675349751572
+- [:span]
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: blue
+  id:: 63dbcf0a-764d-4007-8502-023de3765e10
+  hl-type:: area
+  hl-stamp:: 1675349768310
+- [:span]
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: blue
+  id:: 63dbcf35-92ed-4f6b-9172-93e808c6d3c8
+  hl-type:: area
+  hl-stamp:: 1675349811764
+- [:span]
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: blue
+  id:: 63dbcf4e-fa07-4428-89dd-f60670af7106
+  hl-type:: area
+  hl-stamp:: 1675349836116
+- [:span]
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: blue
+  id:: 63dbcf5f-dbf7-40ae-aa6c-3479f5b60edc
+  hl-type:: area
+  hl-stamp:: 1675349850551

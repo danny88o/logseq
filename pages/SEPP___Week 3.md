@@ -1,0 +1,25 @@
+- ![lecture7_design_architectural_design.pdf](../assets/lecture7_design_architectural_design_1675347725270_0.pdf)
+-
+- # Design
+- ## Architectural Design
+	- ((63dbc7bf-6db5-48b5-afe6-bdb8129dabf6))
+	- Issues to consider:
+		- Has a fundamental influence on non-functional characteristics of the system
+		- Product lifetime: if long lived, should be able to evolve/be flexible
+		- Reusability
+		- Scaling
+		- Compatability with other software
+		- Budget
+		- Skills of team
+	- Trade offs:
+		- Maintainability vs Performance
+		  Layers of security vs ease of usability
+	- ### Distribution architecture
+		- ((63dbcef9-6b89-44db-9175-369f82447993))
+		- ((63dbcee8-f9bd-4e97-9f89-b5ab581841a1))
+		- ((63dbcf0a-764d-4007-8502-023de3765e10))
+		- Service-Oriented acrchitecture ((63dbcf35-92ed-4f6b-9172-93e808c6d3c8))
+		- Peer to peer ((63dbcf4e-fa07-4428-89dd-f60670af7106))
+		-
+		- Message bus ((63dbcf5f-dbf7-40ae-aa6c-3479f5b60edc))
+	-

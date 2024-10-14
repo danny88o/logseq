@@ -1,0 +1,72 @@
+{:highlights
+ [{:id #uuid "63c6bacc-e71c-4333-914f-54522be5ad5c",
+   :page 54,
+   :position
+   {:bounding
+    {:x1 116,
+     :y1 74.3984375,
+     :x2 561,
+     :y2 273.3984375,
+     :width 609.5922253438102,
+     :height 794},
+    :rects (),
+    :page 54},
+   :content {:text "[:span]", :image 1673968326540},
+   :properties {:color "blue"}}
+  {:id #uuid "63c6bedf-3866-4320-9749-eb526b075cc9",
+   :page 68,
+   :position
+   {:bounding
+    {:x1 125,
+     :y1 79.19921875,
+     :x2 601,
+     :y2 295.19921875,
+     :width 654.0479376,
+     :height 851.9040120000001},
+    :rects (),
+    :page 68},
+   :content {:text "[:span]", :image 1673969374280},
+   :properties {:color "blue"}}
+  {:id #uuid "63c6bfaa-5086-4b09-9229-8693cd94cdd5",
+   :page 70,
+   :position
+   {:bounding
+    {:x1 197,
+     :y1 84.3984375,
+     :x2 534,
+     :y2 295.3984375,
+     :width 654.0479376,
+     :height 851.9040120000001},
+    :rects (),
+    :page 70},
+   :content {:text "[:span]", :image 1673969576882},
+   :properties {:color "blue"}}
+  {:id #uuid "63c6c016-465a-4129-a333-5dc2503446b4",
+   :page 71,
+   :position
+   {:bounding
+    {:x1 193.80000001192093,
+     :y1 79,
+     :x2 534.8000000119209,
+     :y2 297,
+     :width 654.0479328,
+     :height 851.9040120000001},
+    :rects (),
+    :page 71},
+   :content {:text "[:span]", :image 1673969684598},
+   :properties {:color "blue"}}
+  {:id #uuid "63c6c09d-7c7f-4964-ac7d-d64eb3bb4231",
+   :page 73,
+   :position
+   {:bounding
+    {:x1 197,
+     :y1 85.19921875,
+     :x2 532,
+     :y2 295.19921875,
+     :width 654.0479328,
+     :height 851.9040120000001},
+    :rects (),
+    :page 73},
+   :content {:text "[:span]", :image 1673969820376},
+   :properties {:color "blue"}}], 
+ :extra {:page 1}}

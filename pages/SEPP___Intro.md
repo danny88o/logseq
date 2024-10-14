@@ -1,0 +1,40 @@
+- Slides
+	- ![lecture2_SE_activities_processes.pdf](../assets/lecture2_SE_activities_processes_1674137561384_0.pdf)
+-
+- # Activities
+	- In no particular oreder
+	- ## Requirements capture
+		- Multiple Stakeholders
+		- Prioritisation
+		- ((63c9508d-6a89-4d3f-bd09-408c57f9d339))
+			- Stakeholders change their mind
+			- Operational changes
+			- Software that interfaces with your product changes version
+	- ## Design
+		- Must be understandable, especially to teammates (and yourself!)
+		- Flexible enough to accommodate changes/new additions
+		- How to divide responsibility within the team (buildability)
+	- ## Construction/Implementation
+		- Coding, but also ((63c95199-0d9b-4546-b035-9fb86e4dee50))
+		- One person can't know everything when scale is very large
+	- ## Testing and debugging
+		- Bugs aren't just errors, also user not being able to use properly
+	- ## Maintenance/Evolution
+		- 1. fixing bugs
+		  2. enhancing existing functionality
+		  3. coping with a changing world
+		  4. improving maintainability
+		- ((63c952f6-541f-40bf-8542-ab4c66b475b8))
+- # Processes
+	- ordering activities
+	- outcomes of activities.
+	- arrangement of people & resources to carry out activities
+	- planning in advance of execution, predicting time/cost/resources
+	- risk reduction
+	- monitoring
+	- enabling their own adaptation
+- # Project vs Product SE
+- ((63c95798-56fa-4dbb-92fa-c2aaf0d63925))
+- # The Agile Process
+	- ((63c95b45-b120-495b-b3da-c62c16b01eca))
+	-

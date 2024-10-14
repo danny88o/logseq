@@ -1,0 +1,8 @@
+-
+-
+- ![Screenshot 2023-04-23 231937.png](../assets/Screenshot_2023-04-23_231937_1682288410374_0.png)
+- Links
+	- https://www.ttable.org/
+	- https://www.z-table.com/
+	-
+	-

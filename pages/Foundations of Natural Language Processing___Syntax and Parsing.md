@@ -1,0 +1,8 @@
+- ![14slides3.pdf](../assets/14slides3_1714858571050_0.pdf)
+	- J&M2
+		- 12.(1-5)
+		- 13.(1-4)
+- ![15slides4.pdf](../assets/15slides4_1714862824447_0.pdf)
+- ![16slides.pdf](../assets/16slides_1709207474791_0.pdf) J&M2: 14.7,14.4,14.5
+- ![17slides.pdf](../assets/17slides_1709207483858_0.pdf) J&M2: 14.6
+-

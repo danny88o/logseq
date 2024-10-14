@@ -1,0 +1,1 @@
+- ![04-ar-propositional-reasoning-isabelle.pdf](../assets/04-ar-propositional-reasoning-isabelle_1727349055482_0.pdf)

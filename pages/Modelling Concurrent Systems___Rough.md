@@ -1,0 +1,43 @@
+- ![moss-03-odd.pdf](../assets/moss-03-odd_1727095335588_0.pdf)
+- ![moss-04-abm.pdf](../assets/moss-04-abm_1727262769414_0.pdf)
+-
+-
+- # ODD
+	- ## Overview
+		- ### Purpose
+			- *A guide to the construction of the model*
+			- Statement of Problem addressed
+			- Specific!
+		-
+		- ### Patterns
+			- What we are modelling
+			- Patterns module shoud reproduce
+			- ... and not reproduce
+		- ### Entities
+			- Agents
+			- Local
+				- e.g. Forest mushrooms
+			- Global
+				- e.g. Temperature
+			- State variables
+		- ### Scales
+			- Temporal
+				- Total length of time $T$
+				- Time step of time $t_s = \alpha T$
+					- Shortest period in which we might see some change
+		- ### Process Overview
+			- What entities are doing
+			- What interactions can occur and how does this affect that environment
+		- ### Scheduling
+			- Which model entities
+			- Execute with processes
+	- ## Design Concepts
+		- Coming Soon!
+	- ## Details
+		- ### Initialisations
+			- Values of state variables
+		- ### Input data
+			-
+-
+- # Agent Based Modelling
+-

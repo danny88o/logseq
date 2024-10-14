@@ -1,0 +1,37 @@
+- ![Laurentiu Spilca - Spring Start Here - Learn what you need and learn it well-Manning (2023).pdf](../assets/Laurentiu_Spilca_-_Spring_Start_Here_-_Learn_what_you_need_and_learn_it_well-Manning_(2023)_1719644588276_0.pdf)
+-
+- # Spring in the real world
+	- ## Framework
+		- ### Business Logic
+			- What makes an application different
+			- Essentially, *what it does*
+		- ### Plumbing
+		    *What a framework covers*
+			- Everything else
+			- Main ones:
+				- Logging
+				- Transactions
+				- Vulnerability protections
+				- Inter-app communication
+				- Performance Improvements:
+					- e.g. Caching/Data Compression
+	- ## Spring Ecosystem
+		- Spring framework is actually an ecosystem of frameworks
+		-
+		- ## Core
+			- *The Fundamental Mechanism*
+			- ### Inversion of Control
+				- Usually, an app controls* the execution of its own code
+				- With IoC, on of its dependencies (Spring) controls the app
+		- ## MVC
+			- Web Apps
+		- ## Data Access
+			- Working with Databases
+			- Object Relational Mapping (ORM)
+		- ## Testing
+			- Unit and Integration/Acceptance
+		- ## Spring Boot
+			- *Convention over Configuration*
+			- Instead of setting up configurations yourself
+			- Start from a default, and edit as needed
+		-

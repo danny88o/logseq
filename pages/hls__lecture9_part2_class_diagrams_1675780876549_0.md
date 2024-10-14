@@ -1,0 +1,39 @@
+file:: [lecture9_part2_class_diagrams_1675780876549_0.pdf](../assets/lecture9_part2_class_diagrams_1675780876549_0.pdf)
+file-path:: ../assets/lecture9_part2_class_diagrams_1675780876549_0.pdf
+
+- The library contains books and journals. It may have several copies of a given book. Some of the books are for short term loans only. All other books may be borrowed by any library member for three weeks. Members of the library can normally borrow up to six items at a time, but members of staff may borrow up to 12 items at one time. Only members of staff may borrow journals.
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: yellow
+  id:: 63e2642d-27d7-4831-a193-3d3c0785aa07
+- [:span]
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 63e26699-1b07-44f9-9bd2-624c35e53ab5
+  hl-type:: area
+  hl-stamp:: 1675781782479
+- associations 
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: yellow
+  id:: 63e2672f-a99a-4bb2-9017-7493244e93cb
+- multiplicities 
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 63e26736-bb91-40b8-a47b-561590fac6bd
+- [:span]
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 63e26781-658a-4a91-9eba-a5d93e4a1686
+  hl-type:: area
+  hl-stamp:: 1675782015762
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 63e26821-be02-48b3-85dd-60512be7001c
+  hl-type:: area
+  hl-stamp:: 1675782176270

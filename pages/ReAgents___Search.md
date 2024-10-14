@@ -1,0 +1,37 @@
+- Slides
+	- ![02_Search.pdf](../assets/02_Search_1674141873891_0.pdf)
+	- ![03_SearchStrategies_r1.pdf](../assets/03_SearchStrategies_r1_1674143592588_0.pdf)
+	- ![04_InformedSearch.pdf](../assets/04_InformedSearch_1674599614960_0.pdf)
+	- ![05_CSP.pdf](../assets/05_CSP_1674746403254_0.pdf)
+	-
+- Reading 
+  3.1-3.3  & 3.4,3.7
+-
+- ((63d04d33-ebdc-406a-ab3d-9e1523f38b85))
+-
+- ### ((63d05258-5eba-4986-9d2a-3d3c20600f05))
+- ### ((63d051ce-e6ce-458a-9fb6-bf9593d05118))
+- ### ((63d05274-7bfe-42a0-be13-07cb587d4381))
+	- Time: $$O(b^d)$$
+	- Space: $$O(b^d)$$
+	- Complete
+		- if finite
+	- Optimal if step cost = 1
+- ### ((63d054d7-98cf-49a2-b359-82bf8d6da4d8))
+	- Time $$O(b^d)$$ good when very dense
+	- Space: $$O(bm)$$
+	- Complete
+		- in finite if avoids repeated states
+		- not in infinite
+- ### ((63d057a8-6fd7-4fa0-b761-662287c54398))
+	- Time $$O(b^d)$$ good when very dense
+	- Space: $$O(bd)$$
+	- Complete
+	- Optimal, step cost = 1
+-
+- # Informed Search
+	- ### ((63d06282-d87a-4c47-97f2-e4cbb6565532))
+- # Smart Search
+	- ## Constraint Satisfaction Problems
+		- ((63d29ae2-7c2b-45ba-8ceb-0aee08b8c4f7))
+		-

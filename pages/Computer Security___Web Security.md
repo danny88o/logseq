@@ -1,0 +1,8 @@
+- ![L24.WebBasics.pdf](../assets/L24.WebBasics_1702414922503_0.pdf)
+- ![L25.SOP.pdf](../assets/L25.SOP_1702414934574_0.pdf) Ch 7.1.4
+- ![L26.XSS.pdf](../assets/L26.XSS_1702414941611_0.pdf) Ch 7.2
+- ![L27.CSRF.pdf](../assets/L27.CSRF_1702414958202_0.pdf) Ch 7.2
+- ![L28.InjectionAttacks.pdf](../assets/L28.InjectionAttacks_1702414964003_0.pdf) Ch 7.3
+-
+- # SOP
+	-

@@ -1,0 +1,27 @@
+file:: [Lecture15_construction_version_control_system_building_1677767742760_0.pdf](../assets/Lecture15_construction_version_control_system_building_1677767742760_0.pdf)
+file-path:: ../assets/Lecture15_construction_version_control_system_building_1677767742760_0.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 6400b51d-52df-467e-be4b-25f9e16e3409
+  hl-type:: area
+  hl-stamp:: 1677767964291
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 6400b749-f003-42c2-a9e8-e0178e38ec08
+  hl-type:: area
+  hl-stamp:: 1677768520206
+- RCS
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 6400b7ba-9c0f-417b-b1eb-219dec90e35a
+- Copy-Modify-Merge
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 6400b826-677c-4e12-8eff-b9dc52d380a2

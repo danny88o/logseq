@@ -1,0 +1,16 @@
+- Textbook
+	- [NLTK](https://www.nltk.org/book_1ed/)
+	- ![J&M2](../assets/Dan_Jurafsky_and_James_H._Martin,_Speech_and_Language_Processing_(2ed)_1706017598943_0.pdf)
+	- [J&M3](https://web.stanford.edu/~jurafsky/slp3/)
+	-
+- Topics
+	- [[Foundations of Natural Language Processing/Intro]]
+	- [[Foundations of Natural Language Processing/Annotation and Evaluation]]
+	- [[Foundations of Natural Language Processing/Ngram, Smoothing and EM]]
+	- [[Foundations of Natural Language Processing/ML Techniques]]
+	- [[Foundations of Natural Language Processing/Morphology]]
+	- [[Foundations of Natural Language Processing/PoS Tagging and HMMs]]
+	- [[Foundations of Natural Language Processing/Syntax and Parsing]]
+	- [[Foundations of Natural Language Processing/Semantics]]
+	- [[Foundations of Natural Language Processing/Deep Learning]]
+	-

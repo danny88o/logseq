@@ -1,0 +1,11 @@
+- ![09_EffectivePropositionalInference.pdf](../assets/09_EffectivePropositionalInference_1675437846302_0.pdf)
+-
+- ## CNF (Conjunctive Normal Form)
+	- A conjunction of disjunction
+	- ((63dd27d2-d1de-452c-9788-e8654ef8c082))
+- ## DPLL
+	- Determine if a CNF is satisfiable (at least one combination is true)
+	- Method:
+		- Check for ((63dd294c-ccae-459d-8571-9a206df484be))
+- ### WalkSAT
+	-

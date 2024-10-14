@@ -1,0 +1,71 @@
+- ![Lecture14_constructionGoodCode.pdf](../assets/Lecture14_constructionGoodCode_1677594131967_0.pdf)
+- ![Lecture15_construction_version_control_system_building.pdf](../assets/Lecture15_construction_version_control_system_building_1677767742760_0.pdf)
+-
+- # Construction
+- ## High Quality Code
+	- Does what its meant to
+	- Persists after changes
+	- On large projects, other people will have to read, understand and access:
+		- Staff movement
+		- Code reviews
+		- Debugging
+		- Maintenance
+		- Yourself! (Much later on)
+	- ### How to (formatting):
+		- ((63fe0fc1-4d29-493c-8a1b-db0a154d708c))
+			- Usually companies have a style you should follow
+			- Whatever the case always be consistent in its use
+		- ((63fe102e-ace7-4571-b887-9e3f3790aeb6))
+			- Use correct indentation... duh
+			- Some editors use different number of spaces for a tab, so adhere to a convention
+		- ((63fe10f2-090f-4480-b073-d24ee4be28a5))
+			- Use Meaningful names
+				- Sometimes comments will go out of sinc, dont patch bad names with comment
+			- Some conventions exist for short names "numpy" as "np" or "i" for loop
+		- ((63fe124e-4684-4f27-8bc2-ed4ba7ba3535))
+			- Don't State the obvious
+			- Talk about assumptions made
+			- Sometimes too _many_ comment is more serious then too few
+			- Clarity of code and good naming should cover a lot of the explanation, over-explaining can cause problems
+			- ((63fe1374-fa5e-452a-82e7-dacb80887a66)) lol
+	- ### How to (code):
+		- Variables
+			- Keep local variable scope restricted, declare variable where it is used
+		- Loops:
+			- Use appropriately
+			- If statements should put most frequent first
+			- Avoid deep nesting
+		- Methods
+			- Should each do 1 thing
+			- Short (<200 lines)
+		- Defensive programming
+			- Checking assumptions
+			- Use assertions and error handling
+		- Balance structural complexity vs code duplication
+		- Remove dead code
+		- Balance complexity vs maintainability vs usability
+	- ### JavaDoc
+		- ((63fe16bf-0674-4de6-94c3-9c978cd43bdb))
+		-
+- # Version Control
+- A system is ever evolving
+- Multiple versions might have to be maintained
+- ## Software Configuration Management!
+	- ((6400b51d-52df-467e-be4b-25f9e16e3409))
+	- ### Version Control
+		- Keep Copies of versions
+		- Track changes
+		- Manage situations where mutiple edits want to be made
+	- ### Lock-Modify-Unlock Model
+		- ((6400b749-f003-42c2-a9e8-e0178e38ec08))
+		- ((6400b7ba-9c0f-417b-b1eb-219dec90e35a)) exists, it shouldn't
+	- ### CVS and SVN
+		- Still one main
+		- Uses ((6400b826-677c-4e12-8eff-b9dc52d380a2)) model
+		- Commits to changed file might cause merge conflicts, which will be manually solved
+	- ### Distributed Version Control
+		- What GitHub uses
+		- Very fast VC operations
+		- Works (for a while) offline
+		- Can become chaotic if protocols aren't applied properly
+		-

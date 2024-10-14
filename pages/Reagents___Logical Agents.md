@@ -1,0 +1,8 @@
+- ![08_LogicalAgents.pdf](../assets/08_LogicalAgents_1675350814446_0.pdf)
+-
+- ## Knowledge based agent
+	- Deduction!
+		- Deduces hidden properties
+		- .. and appropriate response
+	- ### Wumpus World
+	-
