@@ -1,0 +1,54 @@
+# Algebraic Effects and Handlers
+	- ![intro_to_eff&hand.pdf](../assets/intro_to_eff&hand_1729191048684_0.pdf)
+	- ![PlotkinAndPower.pdf](../assets/PlotkinAndPower_1729192819185_0.pdf)
+	- ![whybetterthanmonads.pdf](../assets/whybetterthanmonads_1729200636483_0.pdf)
+	-
+	- *Algebraic effects* are computational effects that are modelled as abstract operations that have impure behaviour. They provide this both for side effects, such as I/O or state mutation, and other computational effects such as forking or exceptions.  These operation calls do not perform actual effects, they behave like a signal that they must be handled. Effect handlers gives these effects form by implementing their effect type.
+	- Effect handlers are a powerful tool for programming with *first class control*, which allows the handler and hence the programmer to reify the program through a continuation. This allows handlers to be seamlessly composed, as long as they are able to handle the possible effects any given program could produce.
+	-
+	- ## First Class Control and Continuations
+		- First class control simply means that the control state is another type of value, in the same way that objects are in say Java, or functions are in functional languages such as Haskell. This is done by having a continuation object that holds the control state that is able to resume the program with that state.
+	- ## A basic example
+		- To illustrate how
+			-
+- # Types of effect handlers
+	- ![effect_handlers_evidently.pdf](../assets/effect_handlers_evidently_1729188638154_0.pdf)
+	- ![handlesrInAction.pdf](../assets/handlesrInAction_1729201280090_0.pdf)
+	- ## Deep vs Shallow Effects
+		- Deep handlers are the "bog-standard" type of handler ![shallow_effect_handlers.pdf](../assets/shallow_effect_handlers_1729188244426_0.pdf). They are deep because they propagate through the computation tree. On the other hand, shallow handlers
+		-
+		- It is easiest to illustrate their difference with an example:
+		- --A handler that handles print, for a given computation, if at any point the effect operation print needs is to be handled, it will be handle it.
+		- Parameterised handlers are a special case of deep handlers
+		- There are also sheep handlers exist (*sh*all + d*eep*) that as the name would imply has some properties of both
+	- ## Oneshot vs Multishot Handlers
+		- One shot handlers are only able to resume an operation once
+- # Effect Handler Oriented Programming
+	- This programming paradigm is becoming increasingly more popular. It is being added  to well established programming languages such by through libraries that implement effects and effect handlers. There are also examples of the paradigm being baked-into languages by design, either by .
+	- ## Effectful Languages
+		- Frank
+		- Links
+		- ![eff.pdf](../assets/eff_1729200611862_0.pdf)
+		- Koka
+	- ## Effect-Supported Languages
+		- C++
+			- ![cppeff.pdf](../assets/cppeff_1729189121086_0.pdf)
+		- Haskell
+		- JVM
+		- C
+	- ## Effect Handling in C
+		- It is worth delving further into the C libraries as it is especially relevant to this dissertation
+		- There are 3 main libraries that support effect typing in c
+		- ![libseff.pdf](../assets/libseff_1729188005950_0.pdf)
+		- ![libhandler.pdf](../assets/libhandler_1729191476238_0.pdf)
+		-
+		-
+	- ## Previous work
+		- ![ramsay-dissertation-2024.pdf](../assets/carslaw-dissertation-2024_1729186862539_0.pdf)
+		- ![Foundations for Programming and Implementing Effect Handlers - Daniel Hil.pdf](../assets/Foundations_for_Programming_and_Implementing_Effect_Handlers_-_thesis_1729186973343_0.pdf)
+-
+- # Unix
+	- ## What
+	- ## Why
+	- ## How
+	- ## Benchmarking
