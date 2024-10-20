@@ -1,0 +1,2 @@
+file:: [Guillaume_Deffuant,_Frédéric_Amblard,_Gérard_Weisbuch_and_Thierry_Faure_How_can_extremism_prevail_1729374542794_0.pdf](../assets/Guillaume_Deffuant,_Frédéric_Amblard,_Gérard_Weisbuch_and_Thierry_Faure_How_can_extremism_prevail_1729374542794_0.pdf)
+file-path:: ../assets/Guillaume_Deffuant,_Frédéric_Amblard,_Gérard_Weisbuch_and_Thierry_Faure_How_can_extremism_prevail_1729374542794_0.pdf
