@@ -4,7 +4,25 @@
 - ![Antartic_Example.pdf](../assets/Antartic_Example_1729424798536_0.pdf)
 - ![Towards a tipping point Exploring the capacity to self-regulate Antarctic tourism using agent-based modelling.pdf](../assets/Towards_a_tipping_point_Exploring_the_capacity_to_self-regulate_Antarctic_tourism_using_agent-based_modelling_1729424855114_0.pdf)
 -
-- # Overview
+- # Overview {{renderer :wordcount_6714ed94-73bd-44f7-b3ba-5782fc9c8a54}}
+	- ## Purpose
+		- This model explores how extremist opinions become dominant through a) extremist confidence in their opinion, b) moderates confidence in their opinion, c) the proportion of people who are extreme.
+	- ## Patterns
+		-
+	- ## Entities, State Variables
+		- There are 3 main types of agents that all correspond to humans with differing opinions.
+			- Extremists with negative opinions
+			- Extremists with positive opinions
+			- Moderates
+		- Every agent has a
+	- ## Scales
+- # Design
+-
+- # Details
+	- ## Initialisation
+		-
+	- ## Input Data
+		- There is no input data for this model
+	- ## Submodels
 	-
--
--
+	-
