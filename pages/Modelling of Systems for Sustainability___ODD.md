@@ -1,28 +1,30 @@
 - ![MOSS-Coursework-Instructions-2024-09-22.pdf](../assets/MOSS-Coursework-1-2024-09-22_1729362182047_0.pdf)
 - ![How can extremism prevail.pdf](../assets/Guillaume_Deffuant,_Frédéric_Amblard,_Gérard_Weisbuch_and_Thierry_Faure_How_can_extremism_prevail_1729374542794_0.pdf)
+- ![Reexamining the Relative Agreement Model of Opinion Dynamics.pdf](../assets/Reexamining_the_Relative_Agreement_Model_of_Opinion_Dynamics_1729645905710_0.pdf)
 -
 - ![Antartic_Example.pdf](../assets/Antartic_Example_1729424798536_0.pdf)
+- ![Land Use Example.pdf](../assets/J._Gary_Polhill,_Dawn_Parker,_Daniel_Brown_and_Volker_Grimm_Using_the_ODD_Protocol_for_Describing_Three_Agent-Based_Social_Simulation_Models_of_Land-Use_Change_1729645798504_0.pdf)
 - ![Towards a tipping point Exploring the capacity to self-regulate Antarctic tourism using agent-based modelling.pdf](../assets/Towards_a_tipping_point_Exploring_the_capacity_to_self-regulate_Antarctic_tourism_using_agent-based_modelling_1729424855114_0.pdf)
 -
-- # Overview {{renderer :wordcount_6714ed94-73bd-44f7-b3ba-5782fc9c8a54}}
-	- ## Purpose
-		- This model explores how extremist opinions become dominant through a) extremist confidence in their opinion, b) moderates confidence in their opinion, c) the proportion of people who are extreme.
-	- ## Patterns
-		-
-	- ## Entities, State Variables
-		- There are 3 main types of agents that all correspond to humans with differing opinions.
-			- Extremists with negative opinions
-			- Extremists with positive opinions
-			- Moderates
-		- Every agent has a
-	- ## Scales
-- # Design
--
-- # Details
-	- ## Initialisation
-		-
-	- ## Input Data
-		- There is no input data for this model
-	- ## Submodels
-	-
-	-
+- # Science Article
+	- ## Introduction {{renderer :wordcount_671a9f55-5c1b-4457-9e10-a71822dff7ba, 100}}
+		- In this day and age, it seems like the world is more polarised than ever, the only thing we can agree on are our differences. Many have tried to offer explanations as to how and why this may be, often pointing to social media as the root cause. Today we will look into and approach using **social simulation** which is a subset of the field of computational modelling. Specifically, we are going to look at  "How can extremism prevail? A study based on the relative agreement interaction model". But first a bit of background on computational modelling.
+	- ## Exp Modelling {{renderer :wordcount_67165a84-fa1b-4f57-be37-caf0e0cd99f1, 200}}
+	  Explain how computational modelling methods can be used to address problems of systems related to sustainability.
+		- Computational modelling is a powerful tool that allows us to simulate and then analyse many complex systems related to sustainability such as ecosystems, social networks, or energy grids. By creating digital representations of how these systems behave, we can explore different scenarios, identify patterns, and predict outcomes. The 2 most common modelling techniques used Agent Based Modelling and System Dynamics Models.
+		- In Agent Based Modelling, agents are autonomous entities that interact with each other and their environment. The key with agent modelling is to get **complex behaviour** from **simple rules** . For example, if you were to model how disruption affects metro systems in the city, the agents would represent the human users of that metro. A line or station could be simulated to stop working unexpectedly, the users would choose to get to their destination through different routes putting strain on other parts of the metro. Often these models give unexpected even unforeseeable results that This could be simulated to help the bodies in charge of overseeing this system have a plan of action for where to focus their resources.
+		- System Dynamics Models take a different approach, they view entities as a group not as individuals.
+		- However, it is important to keep in mind the famous saying: “All models are wrong, but some are useful.” Computational models can't capture every aspect of reality, but they can be incredibly useful for identifying trends and to test different possibilities to then make smarter, more informed decisions in the future.
+	- ## Exp Relation to article {{renderer :wordcount_67165a9a-609e-4144-ba32-e0061ec0c97e, 200}}
+	  Explain how those are applied in the case of a particular sustainability systems modelling paper
+		- The paper we are looking at today uses Agent Based Modelling. It characterised agents, which in this case represent people, as having an opinion level and an uncertainty level. There are  many agents that have moderate opinion level with variable uncertainty and extreme opinion agents with low uncertainty. It makes sense for extreme agents to have low uncertainty, those with the most extreme views tend to also be very confident in said views.
+		- The model works by having random pairs of agents interact with each other where, if they have a similar opinion and are uncertain, they will influence each others views. Agents with higher uncertainty are more easily influenced and the opposite is also true. Eventually, one of three things occur. The moderate agents retain their moderate opinion level (central convergence), the moderate got to one extreme (single extreme convergence), or they go to both (polarisation).
+		- If the moderates have low uncertainty, central convergence is usually achieved. However at high uncertainties, polarisation often occurs. Shockingly it is the Moderates that drive the pull to the extremes, not the extremest, who are themselves actually brought closer to the centre.
+	- ## Critique {{renderer :wordcount_67165acb-917c-4c14-aa81-7dab82a010b5 -5, 200}}
+	  Critique shortcomings of the paper chosen in Step 1, for example, examining if the conclusions of the paper are supported by the modelling, if the modelling approach is appropriate for the question address or if there is other work in the field that appears to contradict (or support) the findings of the paper
+		- Although this paper provides a very in depth analysis, it isn't without its shortcomings. Firstly, as is often a drawback with computational modelling, many simplifying assumptions are made. Opinion are not something that can be quantified even an opinions on a single topic can be multifaceted.
+		- The model has agents interact completely randomly. This is of course not how real life works, most people are part of social networks that means their chance of interacting with someone within their circle is much higher than someone who is not, and they are also much more likely to be influenced by someone they are closer too.
+		- Often during the paper psychological and behavioural patterns of humans are assumed and not cited. This makes it much harder to verify or critique the base assumptions the article makes and could put the conclusions of the model in jeopardy. Having said that, what they claim is often "common" sense so this should not be too much of a problem
+		- The paper also fails to provide explanations for the unexpected behaviour of moderates causing the polarisation in any psychological, mathematical or sociological capacity. The paper would be more complete if it discussed the reasoning for this more.
+	- ### Conclusion {{renderer :wordcount_671aa4e2-ee62-4e6b-9f35-9fede750adb0, 100}}
+		- As you can see, this model is a long way from answering our question on why we are so polarised, however it does provide a base from which we can introduce more complex structures. Hopefully this article has has convinced you of the benefits computational modelling has for sustainable systems. In the next article on this topic we will look at a similar setup, but taking into account social networks.
