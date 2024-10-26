@@ -15,7 +15,8 @@
 	- ![effect_handlers_evidently.pdf](../assets/effect_handlers_evidently_1729188638154_0.pdf)
 	- ![handlesrInAction.pdf](../assets/handlesrInAction_1729201280090_0.pdf)
 	- ## Deep vs Shallow Effects
-		- Deep handlers are the "bog-standard" type of handler ![shallow_effect_handlers.pdf](../assets/shallow_effect_handlers_1729188244426_0.pdf). They are deep because they propagate through the computation tree. On the other hand, shallow handlers
+		- Deep handlers are the "bog-standard" type of handler ![shallow_effect_handlers.pdf](../assets/shallow_effect_handlers_1729188244426_0.pdf). They are deep because they propagate through the computation tree. On the other hand,
+		- shallow handlers
 		-
 		- It is easiest to illustrate their difference with an example:
 		- --A handler that handles print, for a given computation, if at any point the effect operation print needs is to be handled, it will be handle it.
