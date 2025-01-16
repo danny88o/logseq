@@ -2,7 +2,7 @@
 	- [[Dissertation]]
 	- [[Modelling of Systems for Sustainability]]
 	- [[Automated Reasoning]]
-	-
+	- [[Algorithmic Game Theory]]
 	-
 	-
 - # Year 3

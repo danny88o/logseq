@@ -53,9 +53,5 @@
 	- ![ramsay-dissertation-2024.pdf](../assets/carslaw-dissertation-2024_1729186862539_0.pdf)
 	- ![Foundations for Programming and Implementing Effect Handlers - Daniel Hil.pdf](../assets/Foundations_for_Programming_and_Implementing_Effect_Handlers_-_thesis_1729186973343_0.pdf)
 -
-- # Benchmarking
-- ![TextBook-Systems-Benchmarking.pdf](../assets/978-3-030-41705-5_1732272948671_0.pdf)
--
-- ![Techniques-For-OS.pdf](../assets/IRJET-V10I7165_1732272882963_0.pdf)
 -
 -
