@@ -4,4 +4,5 @@
 - # OS
 	- ![Techniques-For-OS.pdf](../assets/IRJET-V10I7165_1732272882963_0.pdf)
 -
+- d
 -
