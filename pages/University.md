@@ -4,7 +4,7 @@
 	- [[Automated Reasoning]]
 	- [[Algorithmic Game Theory]]
 	- [[Compiling Techniques]]
-	-
+-
 - # Year 3
 	- [[Modelling Concurrent Systems]]
 	- [[Computer Security]]
@@ -15,8 +15,8 @@
 	- [[Operating Systems]]
 	- [[Foundations of Natural Language Processing]]
 	- [[Denotational Semantics]]
-	-
-	-
+-
+-
 - # Year 2
 	- [[IADS]]
 	- [[ICS]]
