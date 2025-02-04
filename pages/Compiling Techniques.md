@@ -1,2 +1,6 @@
 - [[Compiling Techniques/Rough]]
+- [[Compiling Techniques/Intro]]
+- [[Compiling Techniques/Lexer]]
+- [[Compiling Techniques/Parser]]
+-
 -
