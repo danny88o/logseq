@@ -3,4 +3,7 @@
 - [[Compiling Techniques/Lexer]]
 - [[Compiling Techniques/Parser]]
 -
+- Coursework
+	- [[Compiling Techniques/CW1]]
+-
 -
