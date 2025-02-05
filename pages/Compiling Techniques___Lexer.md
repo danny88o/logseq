@@ -1,3 +1,4 @@
+- ![ct-lecture3-lexicalanalysis.pdf](../assets/ct-lecture3-lexicalanalysis_1738770260132_0.pdf)
 - ![CT-Lecture4-AutomaticLexerGeneration - ct-lecture4-automaticlexergeneration.pdf](../assets/CT-Lecture4-AutomaticLexerGeneration_-_ct-lecture4-automaticlexergeneration_1737386141913_0.pdf)
 -
 -
