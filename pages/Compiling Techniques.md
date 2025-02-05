@@ -1,8 +1,10 @@
+- Textbook
 -
-- [[Compiling Techniques/Rough]]
-- [[Compiling Techniques/Intro]]
-- [[Compiling Techniques/Lexer]]
-- [[Compiling Techniques/Parser]]
+- Lectures
+	- [[Compiling Techniques/Rough]]
+	- [[Compiling Techniques/Intro]]
+	- [[Compiling Techniques/Lexer]]
+	- [[Compiling Techniques/Parser]]
 -
 - Coursework
 	- [[Compiling Techniques/CW1]]
